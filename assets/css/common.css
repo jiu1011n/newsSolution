@@ -31,7 +31,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 .account_log ul li a {font-size: 14px; letter-spacing: -1px; line-height: 25px; color: #000000; font-family: "Noto Sans CJ Kkr"; text-align: right;}
 .account_log ul li a::before {content: ""; background: url('../image/icon/ddot.png') no-repeat; width: 3px; height: 15px; display: inline-flex; align-items: center; margin-right: 7px; }
 .header_menu_conts{border-top: 1px solid #cccccc; border-bottom:2px solid #000000; height: 55px;}
-.header_menu {display: flex; align-items: center; justify-content: space-between;}
+.header_menu {display: flex; align-items: center; justify-content: space-between; height: 100%;}
 .hamburger, .search {display: block; width: 25px; height: 25px;}
 .hamburger{background: url('../image/icon/ic_menu.png') no-repeat left center;}
 .search{background: url('../image/icon/ic_search.png') no-repeat right center;}

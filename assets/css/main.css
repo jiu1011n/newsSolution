@@ -9,8 +9,13 @@
 /* contents start */
 
     /* main top start (banner) */
-    .banner_inn{margin-top: 7px; height: 400px; border-bottom: 1px solid #1c1c1c;}
-    
+    .banner{padding-top: 7px;}
+    .banner_inn{ height: 400px; border-bottom: 1px solid #1c1c1c;}
+    .swiper-wrapper{height: 100%; display: flex; align-items: center;}
+    .news {display: flex!important; align-items: center; height: 318px; width: 100%;}
+    .top_news_image {width: 656px; height: 318px;}
+    .top_news {padding: 21px 0 21px 23px; overflow: hidden;}
+    .news .top_news p{overflow: hidden; text-overflow: ellipsis; padding-top: 24px; -webkit-box-orient: vertical; -webkit-line-clamp: 6; white-space: normal; display: -webkit-box; }
     /* main top end (banner) */
 
 /* contents end */
