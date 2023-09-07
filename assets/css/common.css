@@ -5,8 +5,37 @@
     파일정의: Common css
     순서:    Header > table > list > form ... > Footer 
 -------------------------------------------------------------------*/
+.container {max-width: 1140px; margin: 0 auto;}
+h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
+h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+.body1{font-size: 17px; letter-spacing: -1px; line-height: 28px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+.body2{font-size: 14px; letter-spacing: -1px; line-height: 20px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+
 
 /* header start */
+.header_top{display: flex; justify-content: space-between; align-items: center; height: 114px;}
+.social_media{display: flex; gap: 12px;}
+.social_media span{display: block; width: 36px; height: 36px; border-radius: 50%; background-color: #efefef;}
+.fb{background: url('../image/icon/sns1.png') no-repeat center;}
+.twitter{background: url('../image/icon/sns2.png') no-repeat center;}
+.gmail{background: url('../image/icon/sns3.png') no-repeat center;}
+.insta{background: url('../image/icon/sns3\ \(1\).png') no-repeat center;}
+.site_logo{display: flex; flex-direction: column; justify-content: flex-end;width: 196px; }
+.logo {width: 196px; height: 25px;}
+.sub_logo{display: flex; justify-content: space-between; width: 192px;}
+.sub_logo p {font-size: 12px; letter-spacing: 1px; line-height: 25px; color: #686868; font-weight: 400; font-family: "Gulim";}
+.account_log ul {display: flex; gap: 15px;}
+.account_log ul li a {font-size: 14px; letter-spacing: -1px; line-height: 25px; color: #000000; font-family: "Noto Sans CJ Kkr"; text-align: right;}
+.account_log ul li a::before {content: ""; background: url('../image/icon/ddot.png') no-repeat; width: 3px; height: 15px; display: inline-flex; align-items: center; margin-right: 7px; }
+.header_menu_conts{border-top: 1px solid #cccccc; border-bottom:2px solid #000000; height: 55px;}
+.header_menu {display: flex; align-items: center; justify-content: space-between;}
+.hamburger, .search {display: block; width: 25px; height: 25px;}
+.hamburger{background: url('../image/icon/ic_menu.png') no-repeat left center;}
+.search{background: url('../image/icon/ic_search.png') no-repeat right center;}
+.menu_list {display: flex; gap: 59px;}
 /* header end */
 
 
