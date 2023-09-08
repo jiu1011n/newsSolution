@@ -3,36 +3,64 @@
     파일정의: Web fonts
     순서:    fonts
 -------------------------------------------------------------------*/
+/* NotoSans start */
+@font-face {font-family: 'NotoSans'; font-style: normal; font-weight: 300; src: local('Noto Sans light'), local('NotoSans-light'), url(../../fonts/NotoSans-light.eot); src: url(../../fonts/NotoSans-light.eot?#iefix) format('embedded-opentype'), url(../../fonts/NotoSans-light.woff) format('woff');;}
+@font-face {font-family: 'NotoSans'; font-style: normal; font-weight: 400; src: local('Noto Sans Regular'), local('NotoSans-regular'), url(../../fonts/NotoSans-regular.eot); src: url(../../fonts/NotoSans-regular.eot?#iefix) format('embedded-opentype'), url(../../fonts/NotoSans-regular.woff) format('woff');}
+@font-face {font-family: 'NotoSans'; font-style: normal; font-weight: 500; src: local('Noto Sans Medium'), local('NotoSans-medium'), url(../../fonts/NotoSans-medium.eot); src: url(../../fonts/NotoSans-medium.eot?#iefix) format('embedded-opentype'), url(../../fonts/NotoSans-medium.woff) format('woff');}
+@font-face {font-family: 'NotoSans'; font-style: normal; font-weight: 700; src: local('Noto Sans Bold'), local('NotoSans-bold'), url(../../fonts/NotoSans-bold.eot); src: url(../../fonts/NotoSans-bold.eot?#iefix) format('embedded-opentype'), url(../../fonts/NotoSans-bold.woff) format('woff');}
+/* NotoSans end */
 
-@font-face {
-    font-family: 'NotoSans';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Noto Sans light'), local('NotoSans-light'), url(../../fonts/NotoSans-light.eot);
-    src: url(../../fonts/NotoSans-light.eot?#iefix) format('embedded-opentype'),
-    url(../../fonts/NotoSans-light.woff) format('woff');;
-  }
-@font-face {
-    font-family: 'NotoSans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Noto Sans Regular'), local('NotoSans-regular'), url(../../fonts/NotoSans-regular.eot);
-    src: url(../../fonts/NotoSans-regular.eot?#iefix) format('embedded-opentype'),
-    url(../../fonts/NotoSans-regular.woff) format('woff');
-}
-@font-face {
-    font-family: 'NotoSans';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Noto Sans Medium'), local('NotoSans-medium'), url(../../fonts/NotoSans-medium.eot);
-    src: url(../../fonts/NotoSans-medium.eot?#iefix) format('embedded-opentype'),
-    url(../../fonts/NotoSans-medium.woff) format('woff');
-}
-@font-face {
-    font-family: 'NotoSans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Noto Sans Bold'), local('NotoSans-bold'), url(../../fonts/NotoSans-bold.eot);
-    src: url(../../fonts/NotoSans-bold.eot?#iefix) format('embedded-opentype'),
-    url(../../fonts/NotoSans-bold.woff) format('woff');
-}
+/* NotoSansCJKkr start */
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 100; 
+    src: local('NotoSansCJKkr-Thin'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Thin.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Thin.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 200; 
+    src: local('NotoSansCJKkr-DemiLight'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-DemiLight.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-DemiLight.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 300; 
+    src: local('NotoSansCJKkr-Light'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Light.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Light.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 400; 
+    src: local('NotoSansCJKkr-Regular'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Regular.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 500; 
+    src: local('NotoSansCJKkr-Medium'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Medium.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Medium.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 700; 
+    src: local('NotoSansCJKkr-Bold'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Bold.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Bold.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans CJ Kkr'; font-style: normal; font-weight: 900; 
+    src: local('NotoSansCJKkr-Black'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Black.woff) format('woff'),
+    url(../../fonts/NotoSansCJKkr/NotoSansCJKkr-Black.otf) format('opentype')}
+
+/* NotoSansCJKkr end */
+
+/* NotoSansKr start */
+@font-face {font-family: 'Noto Sans KR'; font-style: normal; font-weight: 300; 
+    src: local('NotoSansCJKkr-Light'),
+    url(../../fonts/noto-sans-kr/NotoSansKr-300.woff) format('woff'),
+    url(../../fonts/noto-sans-kr/NotoSansKR-Light.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans KR'; font-style: normal; font-weight: 400; 
+    src: local('NotoSansCJKkr-Regular'),
+    url(../../fonts/noto-sans-kr/NotoSansKr-400.woff) format('woff'),
+    url(../../fonts/noto-sans-kr/NotoSansKR-Regular.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans KR'; font-style: normal; font-weight: 500; 
+    src: local('NotoSansCJKkr-Medium'),
+    url(../../fonts/noto-sans-kr/NotoSansKr-500.woff) format('woff'),
+    url(../../fonts/noto-sans-kr/NotoSansKR-Medium.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans KR'; font-style: normal; font-weight: 700; 
+    src: local('NotoSansCJKkr-Bold'),
+    url(../../fonts/noto-sans-kr/NotoSansKr-700.woff) format('woff'),
+    url(../../fonts/noto-sans-kr/NotoSansKR-Bold.otf) format('opentype')}
+@font-face {font-family: 'Noto Sans KR'; font-style: normal; font-weight: 900; 
+    src: local('NotoSansCJKkr-Black'),
+    url(../../fonts/noto-sans-kr/NotoSansKr-900.woff) format('woff'),
+    url(../../fonts/noto-sans-kr/NotoSansKR-Black.otf) format('opentype')}
+/* NotoSansKr end */

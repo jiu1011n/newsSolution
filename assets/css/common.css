@@ -14,7 +14,7 @@ h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; fon
 h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .body1{font-size: 17px; letter-spacing: -1px; line-height: 28px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
 .body2{font-size: 14px; letter-spacing: -1px; line-height: 20px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
-
+.truncate2{overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2; white-space: normal; display: -webkit-box;}
 
 /* header start */
 .header_top{display: flex; justify-content: space-between; align-items: center; height: 114px;}
