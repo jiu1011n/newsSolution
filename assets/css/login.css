@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url(fonts.css);
+
+/* Login start */
+    .login {margin-top: 48px; height: 766px;}
+    .login .inn {max-width: 900px; margin: auto; display: flex; flex-direction: column;}
+    .login_header {margin-top: 55px; margin-bottom: 59px;}
+    .login_ttl_text {font-size: 38px; letter-spacing: -1px; line-height: 17px; color: #000000; font-weight: bold; font-family: "Noto Sans CJ Kkr"; text-align: center;}
+    .red {color: #e12626;}
+    .login_desc_text {font-size: 22px; letter-spacing: -1px; line-height: 34px; color: #000000; font-family: "Noto Sans CJ Kkr"; text-align: center; padding-top: 26px;}
+    .loginFrom_social {border-top:1px solid #000000; border-bottom: 1px solid #dbdbdb; height: 367px; display: flex;}
+    .loginForm {width: 50%; border-right: 1px solid #dbdbdb; padding: 60px;}
+    .form_ttl {font-size: 22px; letter-spacing: -2px; line-height: 17px; color: #010101; font-weight: 500; font-family: "Noto Sans CJ Kkr"; text-align: center; padding-bottom: 27px;}
+    .input_wrap {height: 57px;}
+    .input_wrap input{outline: none; border: 1px solid #dbdbdb; background-color: #f7f7f7; height: 47px;}
+    .forget_saveId {margin-top: 5px; display: flex; justify-content: space-between; margin-bottom: 13px;}
+    input[type='checkbox'] {width: 18px; height: 18px; padding: 0; border: none;}
+    .save {font-size: 13px; letter-spacing: -1px; line-height: normal; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    input[type='checkbox']:first-child {background-color: #e12626;}
+    input[type='checkbox']:nth-child(2) {background-color: #d1d1d1;}
+    .forget {font-size: 13px; letter-spacing: -1px; color: #246bcc; font-weight: 300; font-family: "Noto Sans CJ Kkr"; text-align: right;}
+    .login_btn {height: 47px; background-color: #de4949; color: #ffffff; width: 100%; border: none;}
+    .social {display: flex; flex-direction: column; padding: 60px 35px;}
+    .social h3 {font-size: 22px; letter-spacing: -2px; line-height: 17px; color: #010101; font-weight: 500; font-family: "Noto Sans CJ Kkr"; text-align: center;}
+    .desc {font-size: 16px; letter-spacing: -1px; line-height: 17px; color: #666666; font-weight: 300; font-family: "Noto Sans CJ Kkr"; text-align: center; padding-top: 31px; padding-bottom: 44px;}
+    .social_icons {display: flex; justify-content: space-between;}
+    .member {text-align: center; display: flex; justify-content: center; gap: 36px; margin-top: 47px;}
+    .isMember {font-size: 14px; letter-spacing: -1px; line-height: 16px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .register {font-size: 16px; letter-spacing: -1px; line-height: 16px; color: #000000; font-weight: 500; text-decoration: underline; font-family: "Noto Sans CJ Kkr"; text-underline-offset: 3px}
+/* Login end */
