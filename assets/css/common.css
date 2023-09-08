@@ -6,6 +6,7 @@
     순서:    Header > table > list > form ... > Footer 
 -------------------------------------------------------------------*/
 .container {max-width: 1140px; margin: 0 auto;}
+.sub_container {max-width: 804px; margin-top:40px;}
 h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
 h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
