@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     src: local('Noto Sans light'), local('NotoSans-light'), url(../../fonts/NotoSans-light.eot);
     src: url(../../fonts/NotoSans-light.eot?#iefix) format('embedded-opentype'),
     url(../../fonts/NotoSans-light.woff) format('woff');;
@@ -15,7 +15,7 @@
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     src: local('Noto Sans Regular'), local('NotoSans-regular'), url(../../fonts/NotoSans-regular.eot);
     src: url(../../fonts/NotoSans-regular.eot?#iefix) format('embedded-opentype'),
     url(../../fonts/NotoSans-regular.woff) format('woff');
