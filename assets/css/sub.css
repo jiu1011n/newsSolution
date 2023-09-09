@@ -64,6 +64,6 @@
 
 
 .real_time_news_content{width: 130px;}
-.real_time_news_content p{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-.real_time_news_container_first{display: flex; justify-content: space-between;}
-.real_time_news_container_end{}
+.real_time_news_content p{margin-top: 15px; font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+.real_time_news_container_first{margin-top: 20px; display: flex; justify-content: space-between;}
+.real_time_news_container_end{margin-top: 20px; display: flex; justify-content: space-between;}
