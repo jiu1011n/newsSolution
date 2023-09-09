@@ -47,4 +47,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 .footer_menu_list{display: flex; gap: 30px;}
 .footer-main{display: flex;height: 197px; justify-content: space-between;align-items: center;}
 .footer-text p{font-size: 14px;letter-spacing: 0px;line-height: 25px;color: #444444;font-weight: 300;font-family: "Noto Sans CJ Kkr";}
+.footer_menu_list li a{border-right: 1px solid gray; padding-right: 15px; padding-left: 15px; font-size: 15px; letter-spacing: 0px; line-height: 18px; color: #000000; font-family: "Noto Sans CJ Kkr"; text-align: center;}
+.list_last_child{border: none !important;}
+.footer_text_row{display: flex; gap:20px ;}
 /* footer end */
