@@ -5,8 +5,8 @@
     파일정의: Common css
     순서:    Header > table > list > form ... > Footer 
 -------------------------------------------------------------------*/
-.container {max-width: 1140px; margin: 0 auto;}
-.sub_container {max-width: 804px; margin-top:40px;}
+.container {max-width: 1150px; margin: 0 auto;}
+.sub_container {max-width: 811px; margin-top:38px;}
 h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
 h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
@@ -20,7 +20,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 
 /* header start */
 .header_top{display: flex; justify-content: space-between; align-items: center; height: 114px;}
-.social_media{display: flex; gap: 12px;}
+.social_media{display: flex; gap: 12px; margin-bottom: 2px;}
 .social_media span{display: block; width: 36px; height: 36px; border-radius: 50%; background-color: #efefef;}
 .fb{background: url('../image/icon/sns1.png') no-repeat center;}
 .twitter{background: url('../image/icon/sns2.png') no-repeat center;}
@@ -31,7 +31,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 .sub_logo{display: flex; justify-content: space-between; width: 192px;}
 .sub_logo p {font-size: 12px; letter-spacing: 1px; line-height: 25px; color: #686868; font-weight: 400; font-family: "Gulim";}
 .account_log ul {display: flex; gap: 15px;}
-.account_log ul li a {font-size: 14px; letter-spacing: -1px; line-height: 25px; color: #000000; font-family: "Noto Sans CJ Kkr"; text-align: right;}
+.account_log ul li a {font-size: 14px; letter-spacing: -1px; line-height: 25px; color: #686868; font-family: "Noto Sans CJ Kkr"; text-align: right;}
 .account_log ul li a::before {content: ""; background: url('../image/icon/ddot.png') no-repeat; width: 3px; height: 15px; display: inline-flex; align-items: center; margin-right: 7px; }
 .header_menu_conts{border-top: 1px solid #cccccc; border-bottom:2px solid #000000; height: 55px;}
 .header_menu {display: flex; align-items: center; justify-content: space-between; height: 100%;}
@@ -39,6 +39,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 .hamburger{background: url('../image/icon/ic_menu.png') no-repeat left center;}
 .search{background: url('../image/icon/ic_search.png') no-repeat right center;}
 .menu_list {display: flex; gap: 59px;}
+.menu_item a {font-size: 18px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 700; font-family: "Noto Sans KR";}
 /* header end */
 
 
