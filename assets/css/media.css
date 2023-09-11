@@ -9,8 +9,44 @@
 @media screen and (max-width: 1300.98px) {
 
 }
+@media screen and (max-width: 1141px) {
+    h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
+    h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    .body1{font-size: 17px; letter-spacing: -1px; line-height: 28px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .body2{font-size: 14px; letter-spacing: -1px; line-height: 20px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .container {padding: 0 25px!important;}
+    .sub_container {width: 100%;}
+    .conts {width: 66%;}
+    .top_news_image {width: 50%;}
+    .top_news {width: 50%;}
+    .news {justify-content: center;}
+    .swiper-button-next {display: none!important;}
+    .swiper-button-prev {display: none!important;}
+    .floating {width: 30%;}
+    .news_card {width: 31%;}
+    .news_card img {aspect-ratio: 16/9; height: auto;}
+    .conts3 .inn {height: max-content;}
+    .bg_img {width: 60%; aspect-ratio: 1/1; height: auto;}
+    .right_img_news img {width: 30%; aspect-ratio: 3/2; height: auto;}
+    .cardNews_textNews {width: 50%;}
+    .right_card_news {width: 50%;}
+    .aside_banner {width: 100%; aspect-ratio: 2/1; height: auto;}
+    .img_ttl_card {width: 46%;}
+}
 @media screen and (max-width: 1000.98px) {
-
+    .container {padding: 0 25px!important;}
+    .menu .menu_list {gap: 30px;}
+    .news_card {width: 47%;}
+    .conts3 .inn {gap: 15px;}
+    .title_img {height: auto;}
+    .title_img img {display: none;}
+    .title_img h3 {padding: 0;}
+    .right_card_news img {width: 100%; aspect-ratio: 3/2; height: auto;}
+    .img_ttl_card {width: 100%;}
+    .img_ttl_card img {width: 100%; aspect-ratio: 2/1; height: auto;}
 }
 @media screen and (max-width: 767.98px) {
 
