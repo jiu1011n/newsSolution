@@ -73,3 +73,16 @@
 .real_time_news_content p{margin-top: 15px; font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .real_time_news_container_first{margin-top: 20px; display: flex; justify-content: space-between;}
 .real_time_news_container_end{margin-top: 20px; display: flex; justify-content: space-between;}
+
+
+/* create  */
+.impomation_title{font-size: 22px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
+.information_table_body{border: 1px solid #000000;}
+.information_table_body th{width: 221px; background-color: #eaeaea; border-bottom:1px solid #777777 ; border-right: 1px solid #777777;}
+.information_table_body td{width: 918px; background-color: rgb(255, 255, 255);  border-bottom:1px solid #777777 ;}
+
+.select_category{padding: 10px 24px; display: flex; flex-direction: column; gap: 5px;}
+.information_option_button{width:140px; height: 36px; border: 1px solid #777777; display: flex; align-items: center;justify-content: space-between;}
+.select_category_row{display: flex; align-items: center; gap: 5px;}
+.category_addition{width: 54px; height: 36px; border: none; background-color: #777777; color: #ffffff; border-radius: 5px;}
+.category_trash{width: 28px; height: 26px; border: 1px solid #777777; border-radius: 5px;}
