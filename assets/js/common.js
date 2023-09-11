@@ -32,6 +32,5 @@ const aside_banner = new Swiper(".aside_banner", {
   mousewheel: true,
   pagination: {
     el: ".swiper-pagination",
-    dynamicBullets: true,
   },
 });
