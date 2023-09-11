@@ -6,7 +6,7 @@
     순서:    Header > table > list > form ... > Footer 
 -------------------------------------------------------------------*/
 .container {max-width: 1150px; margin: 0 auto;}
-.sub_container {max-width: 811px; margin-top:38px;}
+.sub_container {max-width: 804px; margin-top:38px;}
 h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
 h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
@@ -44,7 +44,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 
 
 /* footer start */
-.footer {margin-top: 71px;}
+.footer {margin-top: 79px;}
 .footer-menu{width: 100%; height: 53px; display: flex; align-items: center;justify-content: center; border-top: 1px solid #d5d5d5;border-bottom: 1px solid #d5d5d5; }
 .footer_menu_list{display: flex; gap: 30px;}
 .footer-main{display: flex;height: 197px; justify-content: space-between;align-items: center;}
