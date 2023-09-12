@@ -1,0 +1,51 @@
+/* Detail header start*/
+    .detail_header {height: 175px; margin-top: 49px; border-bottom: 1px solid #000000;}
+    .navigation p {line-height: 21px; color: #246bcc;}
+    .detail_ttl {font-size: 36px; letter-spacing: -2px; color: #121314; font-weight: bold; margin-top: 25px;}
+    .date_utils {display: flex; justify-content: space-between; align-items: center;}
+    .date_utils {line-height: 34px; color: #999999; margin-top: 33pxh;}
+    .utils {display: flex; height: 36px; width: 106px; border: 1px solid #cccccc; align-items: center; }
+    .utils_icon {width: 36px; height: 100%; display: block;}
+    .print {background: url(../image/icon/ic_print.png) center 50%/18px 16px no-repeat;}
+    .download {background: url(../image/icon/ic_down.png) center 50%/18px 17px no-repeat; border-left: 1px solid #cccccc; border-right: 1px solid #cccccc;}
+    .kr_letter {background: url(../image/icon/가.png) center 50%/12px 14px no-repeat; }
+    /* Detail header end*/
+    
+    /* News detail start */
+    .reporter { display: flex; justify-content: space-between;}
+    .social a img {width: 34px; aspect-ratio: 1/1; height: auto;}
+    .reporter_name {font-size: 16px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .reporter_news {font-size: 13px; letter-spacing: -1px; line-height: 30px; color: #999999; font-weight: 300; font-family: "Noto Sans CJ Kkr"; text-decoration: underline;}
+    .news_text {font-size: 16px; letter-spacing: -1px; line-height: 32px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .hashtag {display: flex; gap: 4px;}
+    .hash {border: 1px solid #246bcc; color: #246bcc; border-radius: 20px; padding: 5px 11px;}
+    .score_btn {display: flex; justify-content: center;}
+    .score_btn button {width: 134px; height: 60px;}
+    .up_score {background-color: #333333; color: #ffffff;}
+    .down_score {background-color: #f7f7f7; border: 1px solid #cbcbcb;}
+    .relative_news {display: flex; flex-direction: column; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; }
+    .relate {font-size: 20px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    .relative_news ul li {font-size: 16px; letter-spacing: -1px; line-height: 28px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    /* News detail end */
+    /* Comment start */
+    .comment .input_wrap {display: flex; background-color: #f3f3f3; height: 108px; align-items: center; justify-content: center;}
+    .comment .input_wrap textarea {width: 675px; height: 88px; vertical-align: top; border: 1px solid #dbdbdb;}
+    .edit_btn {width: 108px; height: 88px; color: #ffffff; background-color: #747474;}
+    .active_tab {display: block;}
+    .tab {display: none;}
+    .tabs ul {display: flex;}
+    .tabs ul li a {width: 109px; height: 38px; display: inline-flex; margin: auto; align-items: center; justify-content: center;}
+    .tab_box_nav {border: 1px solid #dbdbdb; border-bottom: 0; background-color: #f5f5f5;}
+    .tab_box_nav a {font-size: 14px; letter-spacing: -1px; line-height: 28px; color: #666666; font-weight: 300; font-family: "Noto Sans CJ Kkr"; }
+    .active_tab_btn {border: 1px solid #9d9d9d; border-bottom: 0; background-color: #ffffff; z-index: 1;}
+    .red {color: #d21111;}
+    .best_comment ul li { border: 1px #9d9d9d;}
+    .comment_head {display: flex;}
+    .edit_delete {display: flex;}
+    .comment_text {display: flex;}
+    .reply {display: flex;}
+    .reply button {width: 40px; height: 26px; border: 1px solid #c9c9c9;h}
+    /* Comment end */
+    
+
+
