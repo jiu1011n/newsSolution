@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/sub.css">
+    <style>
+     
+        
+    </style>
 
 </head>
 <body>
@@ -62,17 +66,8 @@
 </header>
 <!-- //GNB -->
 <main style="min-height: 100vh;" class="container">
-    <!-- <div class="basic_information">
-<section class="imformation_title">
-    기본정보
-</section>
-<section class="_main">
-
-</section>
-    </div> -->
-
     <div class="information_table">
-        <div class="imformation_title">기본정보</div>
+        <div class="impormation_title">기본정보</div>
         <table class="information_table_body">
             <tr>
                 <th>카테고리 선택</th>
@@ -112,27 +107,201 @@
             </tr>
             <tr>
                 <th>기자명</th>
-                <td class="">홍길동</td>
+                <td class="journalist_name">홍길동</td>
             </tr>
             <tr>
                 <th>아이디</th>
-                <td> IDDID01</td>
+                <td class="information_id"> IDDID01</td>
             </tr>
             <tr>
                 <th>이메일</th>
-                <td>dgbadss@naver.com</td>
+                <td class="imformation_email">
+                    dgbadss@naver.com
+                </td>
             </tr>
             <tr>
                 <th>제목</th>
-                <td>Row 4, Cell 2</td>
+                <td class="information_title">
+                    <input type="text" name="" id="">
+                </td>
             </tr>
             <tr>
-                <th>대표이미지, Cell 1</th>
-                <td>Row 5, Cell 2</td>
+                <th>대표이미지</th>
+                <td class="information_image">
+                     <input type="file" name="" id="">
+                     <button>파일찾기</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p  class="editors_area">에디터영역</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="information_table">
+        <div class="impormation_title">기본정보</div>
+        <table class="information_table_body">
+            <tr class="">
+                <th>해시태그 키워드</th>
+                <td class="tag_settings">
+                    <input type="text" class="tag_settings_input">
+                    <p class="tag_settings_p">-  키워드는 ‘,’ 콤마로 구분하여 입력하세요.</p>
+                    <p class="tag_settings_p">-  입력하신 키워드는 사용자페이지에 출력되며, 클릭 시 해당 태그로 검색된 페이지가 보여집니다.</p>
+                </td>
+            </tr>
+            <tr>
+                <th>메타태그 키워드</th>
+              
+                <td class="tag_settings">
+                    <input type="text" name="" id="" class="tag_settings_input">
+                <p class="tag_settings_p">- 키워드는 ‘,’ 콤마로 구분하여 입력하세요.
+                </p>
+                </td>
+            </tr>
+            <tr>
+                <th>SNS 공유 시 타이틀</th>
+                <td class="tag_settings">
+                    <input type="text" name="" id="" class="tag_settings_input">
+                    <p class="tag_settings_p">-  SNS 공유 시 타이틀에 이용 됩니다.</p>
+                    <p class="tag_settings_p">-  미입력 시 뉴스 제목이 출력됩니다.</p>
+                    
+                    
+                </td>
+            </tr>
+        
+            <tr>
+                <th>SNS 공유 시 내용</th>
+                <td class="tag_settings">
+                    <input type="text" name="" id="" class="tag_settings_input">
+                    <p class="tag_settings_p">-  SNS 공유 시 내용으로 이용 됩니다.</p>
+                    <p class="tag_settings_p">-  미입력 시 기사 내용 일부가 랜덤으로 출력됩니다.</p>
+                </td>
             </tr>
         </table>
      
     </div>
+    <div class="related_article">
+        <section class="related_article_title">관련기사 설정</section>
+        <section class="related_article_body">
+            <input type="text" name="" id="" class="related_article_input">
+            <p>키워드를 입력하시면 자동으로 기사가 검색됩니다.</p>
+        </section>
+    </div>
+    <div class="news_lists">
+        <section class="news_list_table">
+            <div class="all_news_list_title"><img style="width:16px ; height: 15px;" src="/assets/image/icon/iocn.png" alt=""> <p>전체뉴스리스트</p></div>
+            <ul class="all_news_list">
+                <li>이재용 부회장 “죄송합니다.”</li>
+                <li>반려동물도 마스크 착용해요.</li>
+                <li>치킨 박스에 콘샐러드 자리 있는데…</li>
+                <li>발열에도 해열제만 먹고 수련 지속한 아이 결국</li>
+                <li>머리카락이 일부만 백발로 태어난 아기</li>
+                <li>외국인 국내 주식 시장 점유율 50% 최고치 경신</li>
+                <li>이재용 부회장 “죄송합니다.”</li>
+                <li>반려동물도 마스크 착용해요.</li>
+                <li>머리카락이 일부만 백발로 태어난 아기</li>
+                <li>외국인 국내 주식 시장 점유율 50% 최고치 경신</li>
+                <li>이재용 부회장 “죄송합니다.”</li>
+                <li>반려동물도 마스크 착용해요.</li>
+                <li>외국인 국내 주식 시장 점유율 50% 최고치 경신</li>
+                <li>이재용 부회장 “죄송합니다.”</li>
+                <li>반려동물도 마스크 착용해요.</li>
+                <li>머리카락이 일부만 백발로 태어난 아기</li>
+                <li>외국인 국내 주식 시장 점유율 50% 최고치 경신</li>
+                <li>이재용 부회장 “죄송합니다.”</li>
+                <li>반려동물도 마스크 착용해요.</li>
+            </ul>
+        </section>
+        <section class="arrow_buttons">
+            <button>--</button>
+            <button>--</button>
+        </section>
+        <section class="news_list_table">
+            <div class="select_articles_title"><img style="width:16px ; height: 15px;" src="/assets/image/icon/iocn.png" alt=""> <p>선택된 관련기사 리스트</p></div>
+           <ul class="all_news_list">
+            <li>치킨 박스에 콘샐러드 자리 있는데…</li>
+            <li>발열에도 해열제만 먹고 수련 지속한 아이 결국</li>
+           </ul>
+        </section>
+    </div>
+    <ul class="instructions">
+        <li>※ 기사를 검색 후 좌측 뉴스 리스트에서 기사 선택 후 ‘이동 >’ 버튼을 클릭하시면 관련기사 리스트로 이동됩니다.</li>
+        <li>※ 관련기사 리스트에서 삭제하시는 경우, 선택된 관련기사 리스트에서 기사 선택 후 ‘< 이동’ 버튼을 클릭하시면 관련기사가 해제됩니다.</li>
+    </ul>
+    <div class="article_exposure">
+        <div class="information_table">
+            <div class="impormation_title">기본정보</div>
+            <table class="information_table_body">
+                <tr class="">
+                    <th>수정자</th>
+                    <td class="modifier">
+                        <p>홍길동 (2021-01-31 15:25:44)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>노출여부</th>
+                    <td class="exposure">
+                        <section class="exposure_chek">  
+                            <input type="radio" checked="checked" value="male" name="gender"> 노출<br>
+                        <input type="radio" checked="checked" value="male" name="gender"> 미노출<br>
+                        </section>
+                        <p>‘미노출’인 경우에는 해당 기사를 ‘승인’하여도 사용자페이지에 노출되지 않습니다.</p>
+                    </td>
+                </tr>
+                <tr>
+                   <th>노출일시 설정</th>
+                   <td class="date_exposure">
+                    
+                        <input type="radio" checked="checked" value="male" name="gender">최초 노출일시로(2021-01-31 15:25:44)  <br>
+                        <input type="radio" checked="checked" value="male" name="gender">  현재시간<br>
+                        <input type="radio" checked="checked" value="male" name="gender"> 노출 예약<br>
+                            <input class="date_input"  type="text">
+                            <img src="/assets/image/icon/레이어 72.png" style="width: 29px; height: 24px;" alt="">
+                            <select class="information_option_button">
+                                <option value="0">선택</option>
+                            </select>
+                       </td>
+                       
+                
+                </tr>
+            </table>
+         
+        </div>
+        <section class="article_exposure_buttons">
+<button class="make_corrections">수정하기</button>
+<button class="companion">반려하기</button>
+<button id="openModalBtn">승인하기</button>
+
+
+<!-- modal -->
+ <div id="myModal" class="modal">
+    
+     <div class="modal-content">
+       
+            <div class="modal_title"><h1>반려사유작성  </h1><span class="close" id="closeModalBtn">&times;</span></div>
+            <table class="modal_table">
+                <tr>
+                    <th>내용</th>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            <button class="modal_button">반려하기</button>
+     </div>
+ </div>
+
+        </section>
+    </div>
+
+
+   <script src="/assets/js/modal.js"></script>
+<body>
+
+
+
+   
     
 </main>
  <!-- ---------------------------footer start--------------------------- -->
