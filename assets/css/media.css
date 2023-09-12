@@ -10,13 +10,6 @@
 
 }
 @media screen and (max-width: 1141px) {
-    h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
-    h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-    h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-    h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-    h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-    .body1{font-size: 17px; letter-spacing: -1px; line-height: 28px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
-    .body2{font-size: 14px; letter-spacing: -1px; line-height: 20px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
     .container {padding: 0 25px!important;}
     .sub_container {width: 100%;}
     .conts {width: 66%;}
@@ -49,11 +42,68 @@
     .img_ttl_card img {width: 100%; aspect-ratio: 2/1; height: auto;}
 }
 @media screen and (max-width: 767.98px) {
-
+    .main_content_wrap {flex-direction: column;}
+    .conts {width: 100%;}
+    .floating {width: 100%; margin-top: 25px;} 
+    .banner {padding-top: 25px;}
+    .banner_inn {height: auto;}
+    .news {flex-direction: column;}
+    .top_news_image {width: 100%;}
+    .top_news_image img {aspect-ratio: 3/2; width: 100%; height: auto;}
+    .top_news {width: 100%; padding: 10px 0 0 0; height: 127px;}
+    .top_news h1 {text-align: center; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 1; white-space: normal; display: -webkit-box;}
+    .news .top_news p {padding: 0;}
+    .conts1 .inn {row-gap: 15px; column-gap: 10px;}
+    .news_card {width: 48%;}
+    .news_card>img {margin-bottom: 5px;}
+    .conts2 .inn {height: auto;}
+    .swiper1 .swiper-wrapper .swiper-slide img {width: 100%; aspect-ratio: 3/1; height: auto; }
+    .conts3 .inn {margin-top: 0;}
+    .bg_img {width: 50%;}
+    .right_img_news>div>p {padding-top: 5px; line-height: 18px;}
+    .floating_invn {display: flex; flex-wrap: wrap; justify-content: space-between;}
+    .most_viewed {order: -1; width: 50%; height: 329px; margin: 0;}
+    .trending {width: 45%;}
+    .most_list {display: flex; flex-direction: column; justify-content: space-between;}
+    .most_item {height: 30.5px;}
+    .most_item p {font-size: 1.4vw;}
+    .most_number, .list_number {font-size: 1.4vw;}
+    .aside_banner, .real_time_news, .hot_issue {margin-top: 25px;}
+    .aside_banner {aspect-ratio: 3/1; height: auto;}
+    .img_ttl_card {width: 48%;}
+    .hot_issue, .news_room {width: 100%;}
+    .card_inner {justify-content: space-between; padding: 8px 0;}
+    .card_inner img {width: 50px; aspect-ratio: 1/1; height: auto;}
+    .news_room_card>div {flex-grow: 1;}
+    .aside_ttl h3 {line-height: normal; font-size: 14px;}
+    .aside_ttl {margin: 0;}
+    .trending .aside_ttl {margin: 0 0 10px 0;}
+    .trending_list {gap: 8.5px;}
+    .conts4 .inn, .conts5 .inn, .news_room {margin-top: 25px;}
+    
 }
 @media screen and (max-width: 575.98px) {
-
+    .top_news_image {height: auto;}
+    .top_news {height: auto; padding: 10px 0; width: 100%; aspect-ratio: 4/1}
+    .bg_img h2 {line-height: normal;}
+    .bg_img p {line-height: normal;}
+    .cardNews_textNews>div>p {line-height: normal;}
+    .right_card_news p {line-height: normal;}
+    .aside_ttl h3 {font-size: 12px;}
+    .img_ttl_card {width: 46%;}
+    .right_img_news>div>p {line-height: 2vw;}
+    .cardNews_textNews>div {padding: 8px 0;}
+    .right_card_news h3 {padding-top: 10px;}
+    
 }
 @media screen and (max-width: 483px) {
-
+    .conts1 .inn {column-gap: 0;}
+    .text_news p {margin-bottom: 10px;}
+    .text_news h3 {margin-top: 10px;}
+    .right_img_news {padding: 10px 0;}
+    .right_img_news:first-child {padding: 0 0 10px 0;}
+    .aside_img_ttl {margin-top: 10px;}
+    .aside_ttl h3 {font-size: 8px;}
+    .aside_ttl .arrow::before {background-size: cover; height: 9px; width: 6px;}
+    .hot_issue .aside_ttl, .news_room .aside_ttl {margin-bottom: 10px;}
 }

@@ -45,8 +45,7 @@
     /* main conts2 end  */
 
     /* main conts3 start  */
-    .conts3 {margin-top: 40px!important;}
-    .conts3 .inn {width: 100%; height: 377px; display: flex; gap: 30px;}
+    .conts3 .inn {width: 100%; height: 377px; display: flex; gap: 30px; margin-top: 40px;}
     .bg_img {width: 417px; height: 100%; background: url(../image/레이어\ 32.png) no-repeat center; flex-shrink: 0; padding: 0 21px; display: flex; flex-direction: column; justify-content: end; background-size: cover;}
     .bg_img h2 {line-height: 30px; color: #ffffff;}
     .bg_img p {line-height: 21px; color: #ffffff; margin-bottom: 25px; margin-top: 11px;}
@@ -66,7 +65,7 @@
     .right_img_news:last-child {border: none; padding-bottom: 0px; }
     .right_img_news>div{padding-right: 23px; display: flex; flex-direction: column; height: 100%;}
     .right_img_news>div h2{margin-top: 3px;}
-    .right_img_news>div>p {padding-top: 20px; line-height: 25px; letter-spacing: -0.8px; font-size: 14px;}
+    .right_img_news>div>p {padding-top: 20px; line-height: 25px; letter-spacing: -0.8px;}
     .right_img_news img{width: 254px; height: 173px; flex-shrink: 0;}
     /* main conts4 end  */
 
@@ -116,7 +115,7 @@
     .aside_img_ttl {margin-top: 19px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;}
     .img_ttl_card {display: flex; flex-direction: column; width: 142px;}
     .img_ttl_card img {height: 96px;}
-    .img_ttl_card h5 {font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    .img_ttl_card h5 {line-height: 21px; color: #000000;}
     .most_viewed {margin-top: 38px;}
     .most_list {margin-top: 6px;}
     .most_item {height: 43px; display: flex; align-items: center; border-bottom: 1px solid #dbdbdb; gap:16px ;}
