@@ -73,34 +73,44 @@
                 <th>카테고리 선택</th>
                 <td class="select_category">
                     <section class="select_category_row"> 
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
                         <button class="category_addition">추가</button>
                     </section>
                     <section class="select_category_row">
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <select class="information_option_button">
-                            <option value="0">선택</option>
-                        </select>
-                        <button class="category_trash"><img src="/assets/image/icon/레이어 76.png" alt=""></button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="information_option_button">
+                            <p>선택</p>
+                            <span class="under_arrow"></span>
+                        </button>
+                        <button class="category_trash">
+                            <span class="trash_icon"></span>
+                        </button>
                     </section>
 
                 </td>
@@ -191,7 +201,9 @@
     </div>
     <div class="news_lists">
         <section class="news_list_table">
-            <div class="all_news_list_title"><img style="width:16px ; height: 15px;" src="/assets/image/icon/iocn.png" alt=""> <p>전체뉴스리스트</p></div>
+            <div class="all_news_list_title">
+                <span class="pages"></span><p>전체뉴스리스트</p>
+            </div>
             <ul class="all_news_list">
                 <li>이재용 부회장 “죄송합니다.”</li>
                 <li>반려동물도 마스크 착용해요.</li>
@@ -215,11 +227,11 @@
             </ul>
         </section>
         <section class="arrow_buttons">
-            <button>--</button>
-            <button>--</button>
+            <button><span class="left_arrow"></span></button>
+            <button><span class="right_arrow"></span></button>
         </section>
         <section class="news_list_table">
-            <div class="select_articles_title"><img style="width:16px ; height: 15px;" src="/assets/image/icon/iocn.png" alt=""> <p>선택된 관련기사 리스트</p></div>
+            <div class="select_articles_title"><span class="pages"></span> <p>선택된 관련기사 리스트</p></div>
            <ul class="all_news_list">
             <li>치킨 박스에 콘샐러드 자리 있는데…</li>
             <li>발열에도 해열제만 먹고 수련 지속한 아이 결국</li>
@@ -228,7 +240,8 @@
     </div>
     <ul class="instructions">
         <li>※ 기사를 검색 후 좌측 뉴스 리스트에서 기사 선택 후 ‘이동 >’ 버튼을 클릭하시면 관련기사 리스트로 이동됩니다.</li>
-        <li>※ 관련기사 리스트에서 삭제하시는 경우, 선택된 관련기사 리스트에서 기사 선택 후 ‘< 이동’ 버튼을 클릭하시면 관련기사가 해제됩니다.</li>
+        <li>
+            ※ 관련기사 리스트에서 삭제하시는 경우, 선택된 관련기사 리스트에서 기사 선택 후 ‘< 이동’ 버튼을 클릭하시면 관련기사가 해제됩니다.</li>
     </ul>
     <div class="article_exposure">
         <div class="information_table">
@@ -259,10 +272,19 @@
                         <input type="radio" checked="checked" value="male" name="gender"> 노출 예약<br>
                             <input class="date_input"  type="text">
                             <img src="/assets/image/icon/레이어 72.png" style="width: 29px; height: 24px;" alt="">
-                            <select class="information_option_button">
-                                <option value="0">선택</option>
-                            </select>
-                       </td>
+
+                            <button class="information_option_button">
+                                <p>선택</p>
+                                <span class="under_arrow"></span>
+                            </button>
+                         
+                            <button class="information_option_button">
+                                <p>선택</p>
+                                <span class="under_arrow"></span>
+                            </button>
+
+
+                        </td>
                        
                 
                 </tr>
@@ -270,28 +292,24 @@
          
         </div>
         <section class="article_exposure_buttons">
-<button class="make_corrections">수정하기</button>
-<button class="companion">반려하기</button>
-<button id="openModalBtn">승인하기</button>
+            <button class="make_corrections">수정하기</button>
+            <button class="companion">반려하기</button>
+            <button id="openModalBtn">승인하기</button>
+                            <!-- modal -->
+            <div id="myModal" class="modal">
+                
+                    <div class="modal-content">  
+                        <div class="modal_title"><h1>반려사유작성  </h1><span class="close" id="closeModalBtn">&times;</span></div>
+                        <table class="modal_table">
+                            <tr>
+                                <th>내용</th>
+                                <td></td>
+                            </tr>
+                        </table>
 
-
-<!-- modal -->
- <div id="myModal" class="modal">
-    
-     <div class="modal-content">
-       
-            <div class="modal_title"><h1>반려사유작성  </h1><span class="close" id="closeModalBtn">&times;</span></div>
-            <table class="modal_table">
-                <tr>
-                    <th>내용</th>
-                    <td>
-                    </td>
-                </tr>
-            </table>
-            <button class="modal_button">반려하기</button>
-     </div>
- </div>
-
+                        <button class="modal_button">반려하기</button>
+                    </div>
+            </div>
         </section>
     </div>
 
