@@ -13,11 +13,15 @@
 /* header start */
 
 /* ------------------------breakin news - seaction 1------------------------ */
+
+
 .breaking_news{margin-top: 49px; display: flex; justify-content: space-between;}
 .breaking_news_content{ width:270px;}
 .break_news_text{width: 245px;}
 .break_news_text h2{margin-top: 18px; font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .break_news_text p{font-size: 14px; letter-spacing: -1px; line-height: 20px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+.break_img{width: 270px; height: 184px; object-fit: cover;}
+
 /* ------------------------seaction 2 new-news and issue check------------------------ */
 .big_wrap{margin-top: 40px; display: flex; justify-content: space-between;}
 .news_check_wrap{width: 801px; justify-content: space-between;}
@@ -31,15 +35,16 @@
 .issue_check_button{height: 28px; width: 94px; display: flex;}
 .issue_check_content h2{font-size: 18px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .color_button{background-color: rgb(255, 85, 0);width: 84px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #ffffff; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+.mob_news_p{display: none;}
 /* ------------------------seaction-3 old news------------------------ */
 .old_news_content_container{width:100%;  margin-top: 40px;}
 .old_news_wrap{margin-top: 40px; width: 100%; height: 711px; display: flex; flex-direction: column; justify-content: space-between;}
-.test1{width: 160px; height: 109px;}
 .old_news_content{display: flex; align-items: center; gap:17px;}
 .slider_advertising{width: 100%;}
 .old_news_content h2{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
 .old_news_img{width:160px;height:  109px; object-fit: cover; min-width: 160px;}
+.mob_old_p{display: none;}
 
 
 /* ------------------------seaction 4 side bar------------------------ */

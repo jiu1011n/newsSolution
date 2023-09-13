@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import url(fonts.css);
+
+/*-------------------------------------------------------------------
+    파일정의: Responsive css on all pages
+    순서:    Header(menu)> Sub Page > Main top(banner) > Footer > Aside
+-------------------------------------------------------------------*/
+
+@media screen and (max-width: 1300.98px) {
+
+}
+@media screen and (max-width: 1141px) {
+    h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
+    h2{font-size: 24px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+}
+@media screen and (max-width: 1000.98px) {
+ 
+}
+@media screen and (max-width: 767.98px) {
+
+}
+@media screen and (max-width: 575.98px) {
+
+}
+@media screen and (max-width: 483px) {
+    .container{width: 100%;}
+    /* images */
+    .break_img{width: 100% !important; height: 184px;object-fit: cover;}
+    .issue_check_img{width: 100% !important; height: 84px;object-fit: cover;}
+    .real_time_img{object-fit: cover;width: 130px; height: 89px; max-width: 100%;}
+    .news_room_img{object-fit: cover ; height: 75px; width: 110px;min-width: 110px;}
+    .hot_issue_img{object-fit: cover;width: 83px; height: 83px; border-radius: 50%;}
+    .news_slider_imgs{object-fit: cover;width: 100%; height: 161px;}
+    .old_news_img{width:90px;height:  109px; object-fit: cover; min-width: 160px;}
+    /* images end */
+
+    /* breaking news */
+    .breaking_news{margin-top: 30px;width: 100% !important; height: 1150px !important; flex-direction: column ; align-items: center; }
+    .breaking_news_content{width: 90% !important;}
+    .break_news_text{width: 100%;}
+    .big_wrap{margin-top: 20px; flex-direction: column; width: 100% !important;height: 5000px !important; }
+ 
+    
+
+
+    /* new news */
+    .main_news{height: 1750px !important; width: 100% !important;  flex-direction: column; align-items: center;}
+    .new_news_content_wrap{max-width: 90% !important; height: 500px !important;flex-direction: row !important ; flex-wrap: wrap; align-items: center;}
+    .new_news_content_wrap h2{width: 40%; font-size: 16px; font-weight: 400;}
+    .new_news{width: 100% !important; height: 800px !important; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+    .new_news_img{ height: 130px; width: 40%; object-fit: cover;}
+    .new_news_content{}
+    .mob_news_p{display: flex !important; width: 100% !important;font-size: 14px;letter-spacing: -1px;line-height: 23px;color: #777777;font-weight: 300;font-family: "Noto Sans CJ Kkr"; margin-top: 5px;}
+    .desc_news_p{display: none;}
+    /* main news */
+    .news_check_wrap{height: 1600px !important; width: 100% !important;}
+    
+/* issue check */
+.issue_check{ width:90% !important; height: 800px; display: flex; flex-direction: column; justify-content: space-between; }
+.issue_check_button{height: 28px; width: 94px; display: flex;}
+.issue_check_content h2{font-size: 16px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+.color_button{background-color: rgb(255, 85, 0);width: 84px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #ffffff; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+
+
+/* old news */
+
+    .old_news_content_container{width: 100% !important;}
+.old_news_wrap{margin-top: 40px; width: 100%; height: 711px; display: flex; flex-direction: column; justify-content:center; align-items: center; gap: 20px;}
+.old_news_content{display: flex; flex-wrap: wrap; width: 90%;}
+.slider_advertising{width: 100%;}
+.old_news_content h2{width: 150px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 400; font-family: "Noto Sans CJ Kkr";}
+.old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+.desc_old_p{display: none;}
+.mob_old_p{display: flex !important; position: relative;}
+
+/* side bar  */
+.side_bar_container{width: 100% !important;}
+  
+}
