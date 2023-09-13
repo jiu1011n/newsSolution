@@ -27,20 +27,47 @@
 
 }
 @media screen and (max-width: 1000.98px) {
-
+    .sub_main{display: flex; flex-direction: column; align-items: center; width: 100%;}
+    .breaking_news{width: 95%;}
+    .breaking_news_content{ width:240px !important;}
+    .break_img{width: 220px !important;}
+    .break_news_text{width: 220px !important;}
+    .big_wrap{width: 95% !important; gap: 20px;}
+    .news_check_wrap{width:500px !important }
+    .side_bar_container{width:30% !important ;}
+    .new_news{width: 700px !important;}
+    .issue_check{width: 240px !important;}
+    .desc_news_p{font-size: 10px !important;}
+    .issue_check_img{width: 240px !important;}
+    .main_news{width: 650px !important;}
+    .new_news_content_wrap h2{font-size: 18px !important;}
+    .old_news_content_container{width: 650px !important; margin-bottom: 100px;}
 }
 @media screen and (max-width: 767.98px) {
-    
+    .breaking_news{width: 95%; flex-wrap: wrap;}
+    .breaking_news_content{ width:45% !important;}
+    .break_img{width: 100% !important;}
+    .break_news_text{width: 100% !important;}
     .editors_area{height: 150px !important;}
-   
+    .issue_check{display: none !important;}
+    .news_check_wrap{ width: 400px !important;}
+    .main_news{width: 100% !important;}
+    .side_bar_container{width: 500px !important;}
+    .slider_advertising{width: 400px !important;}
+    .old_news_wrap{width: 400px !important;}
+    .desc_old_p{font-size: 10px !important;}
+    .old_news_content h2{font-size: 14px !important;}
 }
 @media screen and (max-width: 575.98px) {
-
+    .side_bar_container{display: none !important;}
 }
 @media screen and (max-width: 483px) {
      /* ------------------------sub_main page start------------------------ */
+
     .container{width: 100%;}
     /* images */
+    .issue_check{display: flex !important;}
+    .side_bar_container{display: flex !important;}
     .break_img{width: 100% !important; height: 184px;object-fit: cover;}
     .issue_check_img{width: 100% !important; height: 84px;object-fit: cover;}
     .real_time_img{object-fit: cover;width: 130px; height: 89px; max-width: 100%;}
@@ -52,8 +79,8 @@
     /* breaking news */
     .breaking_news{margin-top: 30px;width: 100% !important; height: 1150px !important; flex-direction: column ; align-items: center; }
     .breaking_news_content{width: 90% !important;}
-    .break_news_text{width: 100%;}
-    .big_wrap{margin-top: 20px; flex-direction: column; width: 100% !important;height: 5000px !important; }
+    .break_news_text{width: 100% !important;}
+    .big_wrap{margin-top: 20px; flex-direction: column; width: 100% !important;height: 5000px !important; align-items: center !important;}
     /* new news */
     .main_news{height: 1750px !important; width: 100% !important;  flex-direction: column; align-items: center;}
     .new_news_content_wrap{max-width: 90% !important; height: 500px !important;flex-direction: row !important ; flex-wrap: wrap; align-items: center;}
@@ -72,9 +99,9 @@
     .color_button{background-color: rgb(255, 85, 0);width: 84px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #ffffff; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
     /* old news */
     .old_news_content_container{width: 100% !important;}
-    .old_news_wrap{margin-top: 40px; width: 100%; height: 711px; display: flex; flex-direction: column; justify-content:center; align-items: center; gap: 20px;}
+    .old_news_wrap{margin-top: 40px; width: 100% !important; height: 711px; display: flex; flex-direction: column; justify-content:center; align-items: center; gap: 20px;}
     .old_news_content{display: flex; flex-wrap: wrap; width: 90%;}
-    .slider_advertising{width: 100%;}
+    .slider_advertising{width: 100% !important;}
     .old_news_content h2{width: 150px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 400; font-family: "Noto Sans CJ Kkr";}
     .old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
     .desc_old_p{display: none;}

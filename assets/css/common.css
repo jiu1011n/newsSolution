@@ -44,7 +44,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 
 
 /* footer start */
-.footer {margin-top: 79px; display: flex; flex-direction: column; align-items: center;}
+.footer { display: flex; flex-direction: column; align-items: center;}
 .footer-menu{width: 100%; height: 53px; display: flex; align-items: center;justify-content: center; border-top: 1px solid #d5d5d5;border-bottom: 1px solid #d5d5d5; }
 .footer_menu_list{display: flex; gap: 30px;}
 .footer-main{display: flex;height: 197px; justify-content: space-between;align-items: center;}
@@ -91,6 +91,9 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .sub_logo p {line-height: normal;}
     .hamburger, .search {width: 3vw;}
     .account_log ul li a::before {display: none;}
+    /* footer */
+    .footer-main{flex-direction: column-reverse; justify-content: space-around; height: 450px; }
+    
    
 }
 @media screen and (max-width: 575.98px) {
@@ -98,7 +101,8 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .header_top {height: auto; margin: 15px 0;}
     .hamburger, .search {width: 4vw;}
     .account_log ul li a {font-size: 2vw;}
-     .footer-main{flex-direction: column-reverse; justify-content: space-around; height: 450px; }
+    /* footer */
+     
      .footer-text{display: flex; flex-direction: column !important; width: 90%;}
      .footer_text_row{ flex-direction: column; gap: 10px;}
      .footer_menu_list li a{font-size: 14px;font-weight: 200;}
