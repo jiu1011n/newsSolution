@@ -69,6 +69,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .menu .menu_list {gap: 30px;}
     .sub_logo p {font-size: 1.2vw;}
     .account_log ul li a::before {align-self: center;}
+    .footer{padding: 0 20px;}
 }
 @media screen and (max-width: 767.98px) {
     h1{line-height: normal; letter-spacing: 0;}
@@ -86,14 +87,22 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .sub_logo p {line-height: normal;}
     .hamburger, .search {width: 3vw;}
     .account_log ul li a::before {display: none;}
+    /* footer */
+    .footer-menu{height: 100px !important; flex-wrap: wrap !important; }
+    .footer_menu_list{flex-wrap: wrap; text-align: center; align-items: center; justify-content: center;}
 }
 @media screen and (max-width: 575.98px) {
     .menu_list, .social_media {display: none;}
     .header_top {height: auto; margin: 15px 0;}
     .hamburger, .search {width: 4vw;}
     .account_log ul li a {font-size: 2vw;}
-     
+     .footer-main{flex-direction: column-reverse; justify-content: space-around; height: 450px; }
+     .footer-text{display: flex; flex-direction: column !important; width: 90%;}
+     .footer_text_row{ flex-direction: column; gap: 10px;}
+     .footer_menu_list li a{font-size: 14px;font-weight: 200;}
 }
 @media screen and (max-width: 483px) {
     .hamburger, .search {width: 5vw;}
+    .footer-menu{height: 200px !important;}
+    .footer-main{height: 500px;}
 }
