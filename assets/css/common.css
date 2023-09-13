@@ -44,7 +44,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
 
 
 /* footer start */
-.footer {margin-top: 79px;}
+.footer {margin-top: 79px; display: flex; flex-direction: column; align-items: center;}
 .footer-menu{width: 100%; height: 53px; display: flex; align-items: center;justify-content: center; border-top: 1px solid #d5d5d5;border-bottom: 1px solid #d5d5d5; }
 .footer_menu_list{display: flex; gap: 30px;}
 .footer-main{display: flex;height: 197px; justify-content: space-between;align-items: center;}
@@ -69,7 +69,11 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .menu .menu_list {gap: 30px;}
     .sub_logo p {font-size: 1.2vw;}
     .account_log ul li a::before {align-self: center;}
-    .footer{padding: 0 20px;}
+     /* footer */
+     .footer-menu{height: 100px !important; width: 90%; flex-wrap: wrap !important; }
+     .footer_menu_list{flex-wrap: wrap; text-align: center; align-items: center; justify-content: center;}
+     .footer-main{width: 90%;}
+  
 }
 @media screen and (max-width: 767.98px) {
     h1{line-height: normal; letter-spacing: 0;}
@@ -87,9 +91,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .sub_logo p {line-height: normal;}
     .hamburger, .search {width: 3vw;}
     .account_log ul li a::before {display: none;}
-    /* footer */
-    .footer-menu{height: 100px !important; flex-wrap: wrap !important; }
-    .footer_menu_list{flex-wrap: wrap; text-align: center; align-items: center; justify-content: center;}
+   
 }
 @media screen and (max-width: 575.98px) {
     .menu_list, .social_media {display: none;}

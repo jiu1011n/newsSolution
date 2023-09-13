@@ -7,7 +7,9 @@
 -------------------------------------------------------------------*/
 
 @media screen and (max-width: 1300.98px) {
-
+    .table_container{ overflow-x: scroll; white-space: nowrap;}
+    .information_table{scroll-behavior: auto;}
+    .editors_area{height: 200px !important;}
 }
 @media screen and (max-width: 1141px) {
     h1{font-size: 35px; letter-spacing: -2px; line-height: 48px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
@@ -15,17 +17,28 @@
     h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
     h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
     h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    .news_lists{flex-direction: column; width: 100% !important; }
+    .news_list_table{width: 90% !important ; max-width: 597px;}
+    .instructions{display: flex; flex-direction: column; align-items: center;}
+    .instructions li{width: 90%;}
+    .article_exposure{width: 90% !important;}
+    .table_container{ width: 90% !important;}
+    .related_article{margin-top: 30px; width: 90% !important;}
+
 }
 @media screen and (max-width: 1000.98px) {
- 
+
 }
 @media screen and (max-width: 767.98px) {
-
+    
+    .editors_area{height: 150px !important;}
+   
 }
 @media screen and (max-width: 575.98px) {
 
 }
 @media screen and (max-width: 483px) {
+     /* ------------------------sub_main page start------------------------ */
     .container{width: 100%;}
     /* images */
     .break_img{width: 100% !important; height: 184px;object-fit: cover;}
@@ -36,16 +49,11 @@
     .news_slider_imgs{object-fit: cover;width: 100%; height: 161px;}
     .old_news_img{width:90px;height:  109px; object-fit: cover; min-width: 160px;}
     /* images end */
-
     /* breaking news */
     .breaking_news{margin-top: 30px;width: 100% !important; height: 1150px !important; flex-direction: column ; align-items: center; }
     .breaking_news_content{width: 90% !important;}
     .break_news_text{width: 100%;}
     .big_wrap{margin-top: 20px; flex-direction: column; width: 100% !important;height: 5000px !important; }
- 
-    
-
-
     /* new news */
     .main_news{height: 1750px !important; width: 100% !important;  flex-direction: column; align-items: center;}
     .new_news_content_wrap{max-width: 90% !important; height: 500px !important;flex-direction: row !important ; flex-wrap: wrap; align-items: center;}
@@ -57,26 +65,29 @@
     .desc_news_p{display: none;}
     /* main news */
     .news_check_wrap{height: 1600px !important; width: 100% !important;}
-    
-/* issue check */
-.issue_check{ width:90% !important; height: 800px; display: flex; flex-direction: column; justify-content: space-between; }
-.issue_check_button{height: 28px; width: 94px; display: flex;}
-.issue_check_content h2{font-size: 16px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-.color_button{background-color: rgb(255, 85, 0);width: 84px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #ffffff; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-
-
-/* old news */
-
+    /* issue check */
+    .issue_check{ width:90% !important; height: 800px; display: flex; flex-direction: column; justify-content: space-between; }
+    .issue_check_button{height: 28px; width: 94px; display: flex;}
+    .issue_check_content h2{font-size: 16px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    .color_button{background-color: rgb(255, 85, 0);width: 84px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #ffffff; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
+    /* old news */
     .old_news_content_container{width: 100% !important;}
-.old_news_wrap{margin-top: 40px; width: 100%; height: 711px; display: flex; flex-direction: column; justify-content:center; align-items: center; gap: 20px;}
-.old_news_content{display: flex; flex-wrap: wrap; width: 90%;}
-.slider_advertising{width: 100%;}
-.old_news_content h2{width: 150px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 400; font-family: "Noto Sans CJ Kkr";}
-.old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
-.desc_old_p{display: none;}
-.mob_old_p{display: flex !important; position: relative;}
+    .old_news_wrap{margin-top: 40px; width: 100%; height: 711px; display: flex; flex-direction: column; justify-content:center; align-items: center; gap: 20px;}
+    .old_news_content{display: flex; flex-wrap: wrap; width: 90%;}
+    .slider_advertising{width: 100%;}
+    .old_news_content h2{width: 150px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 400; font-family: "Noto Sans CJ Kkr";}
+    .old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .desc_old_p{display: none;}
+    .mob_old_p{display: flex !important; position: relative;}
+    /* side bar  */
+    .side_bar_container{width: 100% !important;}
+     /* ------------------------sub_main page start------------------------ */
 
-/* side bar  */
-.side_bar_container{width: 100% !important;}
-  
+     /* ------------------------create page start------------------------ */
+     .editors_area{height: 100px !important;}
+    /* modal */
+    .modal-content{width: 300px !important; height:267px !important; padding: 10px !important; margin: 70% 12% !important;}
+    .modal_table tr th{width: 150px; height: 130px !important;}
+    .modal_table tr td{width: 150px; height: 130px !important;}
+      /* ------------------------create page end------------------------ */
 }

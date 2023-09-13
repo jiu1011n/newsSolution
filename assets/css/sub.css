@@ -46,7 +46,6 @@
 .old_news_img{width:160px;height:  109px; object-fit: cover; min-width: 160px;}
 .mob_old_p{display: none;}
 
-
 /* ------------------------seaction 4 side bar------------------------ */
 .side_bar_container{width: 301px; background-color:rgb(226, 224, 224); display: flex; justify-content: center;}
 .side_bar_wrapper{width: 271px;}
@@ -68,8 +67,7 @@
 /* news room */
 .news_room_content{display: flex; align-items: center;  gap:15px}
 .news_room_text h2{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #060606; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-    .news_room_text p{ font-size: 14px; letter-spacing: -1px;line-height: 19px;color: #777777;font-weight: 300; font-family: "Noto Sans CJ Kkr";
-    }
+.news_room_text p{ font-size: 14px; letter-spacing: -1px;line-height: 19px;color: #777777;font-weight: 300; font-family: "Noto Sans CJ Kkr";}
 .news_room_container{display: flex; flex-direction: column; gap:10px; margin-top: 20px;}
 .news_room_header_title {display: flex; gap: 5px;}
 .news_room_header_title h2{font-size: 18px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 700; font-family: "Noto Sans KR";}
@@ -83,15 +81,16 @@
 .news_room_img{object-fit: cover ; height: 75px; width: 110px;min-width: 110px;}
 
 /* icons */
-.more_icon{background: url('/assets/image/icon/btn_more.png') no-repeat center; padding: 10px;}
+.more_icon{background: url('/assets/image/icon/btn_more.png') no-repeat center; padding:10px;}
 .hot_issue_img{object-fit: cover;width: 83px; height: 83px; border-radius: 50%;}
 .news_slider_imgs{object-fit: cover;width: 100%; height: 161px;}
 /* ------------------------------news create page------------------------------  */
 
 /* Basics */
+.table_container{width: 100%;}
 
 /* information_table */
-.information_table{margin-top: 45px; width: 100%;}
+.information_table{margin-top: 45px;  width: 1140px}
 .impormation_title{margin-top: 65px; font-size: 22px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
 .information_table_body{border: 1px solid #777777; border-top-color: #000000; margin-top: 15px; width: 100%;}
 .information_table_body th{width: 221px; background-color: #eaeaea; border-bottom:1px solid #777777 ; border-right: 1px solid #777777;}
@@ -115,12 +114,12 @@
 .tag_settings_p{font-size: 13px; letter-spacing: 0px; line-height: 18px; color: #777777; font-weight: 300; font-family: "Noto Sans KR";}
 
 /* related_article */
-.related_article{margin-top: 40px;}
+.related_article{margin-top: 40px; width: 100%;}
 .related_article_title{margin-bottom: 15px; font-size: 22px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 500; font-family: "Noto Sans KR"; }
 .related_article_body{display: flex; align-items: center; gap: 14px; background-color: #e2e2e2; padding:12px; border: 1px solid #777777;}
 .related_article_input{width: 318px; height: 36px;} 
 /* news list */
-.news_lists{margin-top: 20px; display: flex; align-items: center; justify-content: space-between; gap: 20px;}
+.news_lists{width: 100%; margin-top: 20px; display: flex; align-items: center; justify-content: space-between; gap: 20px;}
 .news_list_table{height: 297px; width: 597px;border: 1px solid #777777; border-radius: 5px; } 
 .arrow_buttons{display: flex;flex-direction: column; gap: 5px;}
 .arrow_buttons button{width: 46px; height: 46px; border: 1px solid #777777;} 
@@ -142,7 +141,7 @@
 .exposure input {width: 18px; height:18px ; border-radius: 50%; background-color: #777777;}
 .exposure p{font-size: 13px; letter-spacing: 0px; line-height: 18px; color: #777777; font-weight: 300; font-family: "Noto Sans KR";}
 .exposure input:checked{background-color: red;border: none;}
-.date_exposure{display: flex; gap: 10px ; padding: 15px 24px; align-items: center;}
+.date_exposure{ display: flex; gap: 10px ; padding: 15px 24px; align-items: center;}
 .date_exposure input {width: 18px; height:18px ; border-radius: 50%; background-color: #777777;}
 .date_input{width: 135px !important; height: 35px !important; border: 1px solid #777777; background-color: #ffffff !important; border-radius: 0 !important;}
 .article_exposure_buttons{display: flex; align-items: center; justify-content: center; gap: 5px; margin-top: 50px;}
@@ -151,7 +150,7 @@
 .companion{background-color: #de4949; color: #ffffff;}
 .information_option_button p{ font-size: 14px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 300; font-family: "Noto Sans KR";}
 .information_option_button_end{width: 77px; height: 36px; display: flex; align-items: center; justify-content: space-between; padding: 0 10px; border: 1px solid #777777;}
-
+.article_exposure{width: 100%;}
 
 /*------------------------------ modal ------------------------------*/
 #openModalBtn{background-color: #2056df; color: #ffffff;}

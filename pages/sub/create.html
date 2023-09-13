@@ -6,7 +6,8 @@
     <title>news create</title>
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/media.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/media.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/mediaSub.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/common.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/sub.css">
     <style>
@@ -65,8 +66,9 @@
     </div>
 </header>
 <!-- //GNB -->
-<main style="min-height: 100vh;" class="container">
+<main style="min-height: 100vh; display: flex; flex-direction: column; align-items: center;" class="container">
             <!-- imformation  start-->
+  <div class="table_container">
     <div class="information_table">
         <div class="impormation_title">기본정보</div>
         <table class="information_table_body">
@@ -148,49 +150,52 @@
             <p>에디터영역</p>
         </div>
     </div>
+  </div>
             <!-- imformation  end-->
             <!-- Tag settings start-->
-    <div class="information_table">
-        <div class="impormation_title">기본정보</div>
-        <table class="information_table_body">
-            <tr class="">
-                <th>해시태그 키워드</th>
-                <td class="tag_settings">
-                    <input type="text" class="tag_settings_input">
-                    <p class="tag_settings_p">-  키워드는 ‘,’ 콤마로 구분하여 입력하세요.</p>
-                    <p class="tag_settings_p">-  입력하신 키워드는 사용자페이지에 출력되며, 클릭 시 해당 태그로 검색된 페이지가 보여집니다.</p>
-                </td>
-            </tr>
-            <tr>
-                <th>메타태그 키워드</th>
-              
-                <td class="tag_settings">
-                    <input type="text" name="" id="" class="tag_settings_input">
-                <p class="tag_settings_p">- 키워드는 ‘,’ 콤마로 구분하여 입력하세요.
-                </p>
-                </td>
-            </tr>
-            <tr>
-                <th>SNS 공유 시 타이틀</th>
-                <td class="tag_settings">
-                    <input type="text" name="" id="" class="tag_settings_input">
-                    <p class="tag_settings_p">-  SNS 공유 시 타이틀에 이용 됩니다.</p>
-                    <p class="tag_settings_p">-  미입력 시 뉴스 제목이 출력됩니다.</p>
-                    
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <th>SNS 공유 시 내용</th>
-                <td class="tag_settings">
-                    <input type="text" name="" id="" class="tag_settings_input">
-                    <p class="tag_settings_p">-  SNS 공유 시 내용으로 이용 됩니다.</p>
-                    <p class="tag_settings_p">-  미입력 시 기사 내용 일부가 랜덤으로 출력됩니다.</p>
-                </td>
-            </tr>
-        </table>
-     
+    <div class="table_container">
+        <div class="information_table">
+            <div class="impormation_title">기본정보</div>
+            <table class="information_table_body">
+                <tr class="">
+                    <th>해시태그 키워드</th>
+                    <td class="tag_settings">
+                        <input type="text" class="tag_settings_input">
+                        <p class="tag_settings_p">-  키워드는 ‘,’ 콤마로 구분하여 입력하세요.</p>
+                        <p class="tag_settings_p">-  입력하신 키워드는 사용자페이지에 출력되며, 클릭 시 해당 태그로 검색된 페이지가 보여집니다.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>메타태그 키워드</th>
+                  
+                    <td class="tag_settings">
+                        <input type="text" name="" id="" class="tag_settings_input">
+                    <p class="tag_settings_p">- 키워드는 ‘,’ 콤마로 구분하여 입력하세요.
+                    </p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>SNS 공유 시 타이틀</th>
+                    <td class="tag_settings">
+                        <input type="text" name="" id="" class="tag_settings_input">
+                        <p class="tag_settings_p">-  SNS 공유 시 타이틀에 이용 됩니다.</p>
+                        <p class="tag_settings_p">-  미입력 시 뉴스 제목이 출력됩니다.</p>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <th>SNS 공유 시 내용</th>
+                    <td class="tag_settings">
+                        <input type="text" name="" id="" class="tag_settings_input">
+                        <p class="tag_settings_p">-  SNS 공유 시 내용으로 이용 됩니다.</p>
+                        <p class="tag_settings_p">-  미입력 시 기사 내용 일부가 랜덤으로 출력됩니다.</p>
+                    </td>
+                </tr>
+            </table>
+         
+        </div>
     </div>
             <!-- Tag settings end-->
             <!-- Related article settings start-->
@@ -249,54 +254,56 @@
             <!-- Related article settings end-->
             <!-- Basics start and modal start-->
     <div class="article_exposure">
-        <div class="information_table">
-            <div class="impormation_title">기본정보</div>
-            <table class="information_table_body">
-                <tr class="">
-                    <th>수정자</th>
-                    <td class="modifier">
-                        <p>홍길동 (2021-01-31 15:25:44)</p>
-                    </td>
-                </tr>
-                <tr>
-                    <th>노출여부</th>
-                    <td class="exposure">
-                        <section class="exposure_chek">  
-                            <input type="radio" checked="checked" value="male" name="gender"> 노출<br>
-                        <input type="radio" checked="checked" value="male" name="gender"> 미노출<br>
-                        </section>
-                        <p>‘미노출’인 경우에는 해당 기사를 ‘승인’하여도 사용자페이지에 노출되지 않습니다.</p>
-                    </td>
-                </tr>
-                <tr>
-                   <th>노출일시 설정</th>
-                   <td class="date_exposure">
-                        <div class="radio_group">
-                            <div style="display: flex; gap: 5px;">
-                                <input type="radio" checked="checked" value="male" name="gender">최초노출일시로(2021-01-31 15:25:44) <br>
+        <div class="table_container">
+            <div class="information_table">
+                <div class="impormation_title">기본정보</div>
+                <table class="information_table_body">
+                    <tr class="">
+                        <th>수정자</th>
+                        <td class="modifier">
+                            <p>홍길동 (2021-01-31 15:25:44)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>노출여부</th>
+                        <td class="exposure">
+                            <section class="exposure_chek">  
+                                <input type="radio" checked="checked" value="male" name="gender"> 노출<br>
+                            <input type="radio" checked="checked" value="male" name="gender"> 미노출<br>
+                            </section>
+                            <p>‘미노출’인 경우에는 해당 기사를 ‘승인’하여도 사용자페이지에 노출되지 않습니다.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                       <th>노출일시 설정</th>
+                       <td class="date_exposure">
+                            <div class="radio_group">
+                                <div style="display: flex; gap: 5px;">
+                                    <input type="radio" checked="checked" value="male" name="gender">최초노출일시로(2021-01-31 15:25:44) <br>
+                                </div>
+                                <div style="display: flex; gap: 5px;"> 
+                                    <input type="radio" checked="checked" value="male" name="gender">현재시간<br>
+                                </div>
+                                <div style="display: flex; gap: 5px;"> 
+                                    <input type="radio" checked="checked" value="male" name="gender">예약<br>
+                                </div>
                             </div>
-                            <div style="display: flex; gap: 5px;"> 
-                                <input type="radio" checked="checked" value="male" name="gender">현재시간<br>
-                            </div>
-                            <div style="display: flex; gap: 5px;"> 
-                                <input type="radio" checked="checked" value="male" name="gender">예약<br>
-                            </div>
-                        </div>
-                        <input class="date_input"  type="text">
-                        <span class="date_icon"></span>
-                        <button class="information_option_button_end">
-                                <p>선택</p>
-                                <span class="under_arrow"></span>
-                        </button>
-                         
-                        <button class="information_option_button_end">
-                                <p>선택</p>
-                                <span class="under_arrow"></span>
-                        </button>
-                    </td>
-                </tr>
-            </table>
-         
+                            <input class="date_input"  type="text">
+                            <span class="date_icon"></span>
+                            <button class="information_option_button_end">
+                                    <p>선택</p>
+                                    <span class="under_arrow"></span>
+                            </button>
+                             
+                            <button class="information_option_button_end">
+                                    <p>선택</p>
+                                    <span class="under_arrow"></span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+             
+            </div>
         </div>
         <section class="article_exposure_buttons">
             <button class="make_corrections">수정하기</button>
@@ -318,7 +325,7 @@
                     </div>
             </div>
         </section>
-    </div>
+    </div> 
             <!-- Basics start and modal end-->
 
 
