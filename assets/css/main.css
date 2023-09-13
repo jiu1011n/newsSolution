@@ -90,7 +90,7 @@
 /* contents end */
 
 /* aside.floating start */
-    .floating {width: 304px; margin-top: 40px;}
+    .floating {width: 304px; margin-top: 40px; flex-shrink: 0;}
     .floating_invn {position: sticky; top: 0; right: 0; width: 100%;}
     .trending_item, .most_item {display: flex;}
     .blue_text {color: #2834fd;}
