@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -86,10 +87,10 @@
         </section>
         <!-- //Detail header -->
 
-        <div class="main_content_wrap container">
+        <div class="detail_content_wrap container">
             <!-- 본문 -->
-            <main class="conts sub_container">
-                <section class="news_detail">
+            <main class="detail_conts">
+                <section class="news_detail sub_container">
                     <div class="reporter_wrap">
                         <div class="reporter">
                             <p class="detail1">홍길동 기자</p>
@@ -138,7 +139,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="comment_wrap">
+                <section class="comment_wrap sub_container">
                     <div class="social">
                         <a href=""><img src="../../assets/image/icon/facebook.png" alt="facebook"></a>
                         <a href=""><img src="../../assets/image/icon/twiter.png" alt="twitter"></a>
@@ -147,8 +148,8 @@
                         <a href=""><img src="../../assets/image/icon/google.png" alt="google"></a>
                     </div>
                     <div class="textarea_wrap">
-                        <textarea type="text" id="comment" name="comment" placeholder="댓글을 입력해 주세요 (최대 200자)" rows="3"
-                            value=""></textarea>
+                        <textarea type="text" id="comment" name="comment" placeholder="댓글을 입력해 주세요 (최대 200자)"
+                            title="Please enter a comment" rows="3" value=""></textarea>
                         <label for="comment" class="hidden"></label>
                         <button class="edit_btn"><span class="edit_comment">등록</span></button>
                     </div>
@@ -280,7 +281,7 @@
                                 </div>
                                 <div class="input_wrap">
                                     <input type="text" id="reply_comment" name="reply_comment"
-                                        placeholder="댓글을 입력해 주세요 (최대 200자)" value="">
+                                        placeholder="댓글을 입력해 주세요 (최대 200자)" value="" title="Please enter a comment">
                                     <label for="comment" class="hidden"></label>
                                     <button class="input_btn"><span>등록</span></button>
                                 </div>
@@ -648,5 +649,7 @@
 </body>
 
 <!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../../assets/js/common.js"></script>
 
 </html>

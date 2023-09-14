@@ -14,11 +14,11 @@
 /* contents start */
     /* main top start (banner) */
     .banner{padding-top: 7px;}
-    .banner_inn{ height: 404px; border-bottom: 1px solid #1c1c1c;}
+    .banner_inn{ height: 400px; border-bottom: 1px solid #1c1c1c;}
     .swiper-wrapper{height: 100%; display: flex; align-items: center;}
     .fade-in {opacity: 1;}
     .news {display: flex!important; align-items: center; height: 318px; width: 100%; opacity: 0;}
-    .top_news_image {display: block; width: 662px; height: 321px; flex-shrink: 0;}
+    .top_news_image {display: block; width: 656px; height: 318px; flex-shrink: 0;}
     .top_news_image img {object-fit: cover; width: 100%; height: 100%; max-width: 100%;}
     .top_news {padding: 21px 0 21px 23px; overflow: hidden; background-color: #fff;}
     .news .top_news p{overflow: hidden; text-overflow: ellipsis; padding-top: 24px; -webkit-box-orient: vertical; -webkit-line-clamp: 6; white-space: normal; display: -webkit-box; }
@@ -28,14 +28,16 @@
     /* main top end (banner) */
     
     /* main conts1 start  */
-    .conts1 .inn {display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 18px; column-gap: 21px;}
+    .conts1 {margin-top: 38px;}
+    .conts1 .inn {display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 17px; column-gap: 21px;}
     .news_card {display: flex; flex-direction: column; width: 254px;}
-    .news_card>img {width: 100%; height: 174px; margin-bottom: 15px;}    
+    .news_card>img {width: 100%; height: 173px; margin-bottom: 14px;}    
     .news_card>h4 {letter-spacing: -0.3px;}
     .news_card>p {overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; -webkit-line-clamp: 2; white-space: normal; display: -webkit-box; margin-top: 6px; letter-spacing: -0.6px;}
     /* main conts1 end  */
 
     /* main conts2 start  */
+    .conts2 {margin-top: 37px;}
     .conts2 .inn {width: 100%; height: 194px; position: relative;}
     .swiper1 .swiper-wrapper {height: 100%;}
     .swiper1 .swiper-wrapper .swiper-slide {height: 100%;}
@@ -46,7 +48,9 @@
 
     /* main conts3 start  */
     .conts3 .inn {width: 100%; height: 377px; display: flex; gap: 30px; margin-top: 40px;}
-    .bg_img {width: 417px; height: 100%; background: url(../image/레이어\ 32.png) no-repeat center; flex-shrink: 0; padding: 0 21px; display: flex; flex-direction: column; justify-content: end; background-size: cover;}
+    .bg_img {width: 417px; height: 100%; flex-shrink: 0; display: flex; flex-direction: column; justify-content: end; position: relative;}
+    .bg_img img {width: 100%; height: 100%; object-fit: cover;}
+    .bg_img_text {position: absolute; width: 100%; padding: 0 21px;}
     .bg_img h2 {line-height: 30px; color: #ffffff;}
     .bg_img p {line-height: 21px; color: #ffffff; margin-bottom: 25px; margin-top: 11px;}
     .text_news_wrapper {display: flex; flex-direction: column;}
@@ -90,19 +94,19 @@
 /* contents end */
 
 /* aside.floating start */
-    .floating {width: 304px; margin-top: 40px; flex-shrink: 0;}
-    .floating_invn {position: sticky; top: 0; right: 0; width: 100%;}
+    .floating {width: 302px; margin-top: 40px; flex-shrink: 0;}
+    .floating_invn {position: sticky; top: 0; right: 0; width: 100%; padding-left: 1px;}
     .trending_item, .most_item {display: flex;}
     .blue_text {color: #2834fd;}
     .aside_ttl {display: flex; justify-content: space-between; align-items: center;}
-    .aside_ttl h3 {letter-spacing: -0.8px; line-height: 18px; color: #000000; font-weight: 700; font-family: "Noto Sans KR";}
+    .aside_ttl h3 {letter-spacing: -0.8px; line-height: 18px; color: #000000; font-weight: 700; font-family: "Noto Sans KR"; font-size: 18px;}
     .arrow::before {content:''; background: url(../image/icon/btn_more.png); display: block; width: 9px; height: 13px;}
     .trending .aside_ttl {margin-bottom: 21px; margin-top: -2px;}
     .trending_list {display: flex; flex-direction: column; gap: 8px; }
     .trending_item {display: flex; gap: 13px; align-items: center;}
-    .list_number {background-color: #b7b7b7; display: flex; width: 23px; height: 22px; border-radius: 3px; text-align: center; font-size: 12px; letter-spacing: -1px; color: #ffffff; font-family: "Noto Sans CJ Kkr"; justify-content: center; align-items: center;}
+    .list_number {background-color: #b7b7b7; display: flex; width: 22px; height: 22px; border-radius: 3px; text-align: center; font-size: 12px; letter-spacing: -1px; color: #ffffff; font-family: "Noto Sans CJ Kkr"; justify-content: center; align-items: center;}
     .blue_bg {background-color: #2935fd;}
-    .trending_item p {color: #060606; letter-spacing: 0px;}
+    .trending_item p {color: #060606; letter-spacing: -0.6px;}
     
     .aside_banner {margin-top: 40px; width: 100%; height: 178px; position: relative;}
     .aside_banner .swiper-wrapper {height: 100%;}
@@ -112,8 +116,8 @@
     .aside_banner .swiper-pagination-bullet { background-color: #fff!important; width: 9px!important; height: 9px!important;}
     
     .real_time_news {margin-top: 39px;}
-    .aside_img_ttl {margin-top: 19px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;}
-    .img_ttl_card {display: flex; flex-direction: column; width: 142px;}
+    .aside_img_ttl {margin-top: 19px; display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 20px; column-gap: 1px;}
+    .img_ttl_card {display: flex; flex-direction: column; width: 141px;}
     .img_ttl_card img {height: 96px;}
     .img_ttl_card h5 {line-height: 21px; color: #000000;}
     .most_viewed {margin-top: 38px;}
