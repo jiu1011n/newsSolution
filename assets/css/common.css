@@ -92,7 +92,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
     .hamburger, .search {width: 3vw;}
     .account_log ul li a::before {display: none;}
     /* footer */
-    .footer-main{flex-direction: column-reverse; justify-content: space-around; height: 450px; }
+    .footer-main{flex-direction: column-reverse; justify-content: space-around; }
     
    
 }

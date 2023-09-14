@@ -47,6 +47,8 @@
 .old_news_content h2{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr"; padding: 5px;}
 .old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr"; padding: 5px;}
 .old_news_img{width:160px;height:  109px; object-fit: cover; min-width: 160px;}
+.desc_old_p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr"; padding: 5px;}
+.mob_old_p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr"; padding: 5px;}
 .mob_old_p{display: none;}
 
 /* ------------------------seaction 4 side bar------------------------ */
