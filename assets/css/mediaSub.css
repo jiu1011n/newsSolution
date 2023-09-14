@@ -17,13 +17,15 @@
     h3{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
     h4{font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
     h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-    .news_lists{flex-direction: column; width: 100% !important; }
+    .news_lists{flex-direction: column; width: 100% !important; gap: 1px !important;}
     .news_list_table{width: 90% !important ; max-width: 597px;}
     .instructions{display: flex; flex-direction: column; align-items: center;}
     .instructions li{width: 90%;}
     .article_exposure{width: 90% !important;}
     .table_container{ width: 90% !important;}
     .related_article{margin-top: 30px; width: 90% !important;}
+    .arrow_buttons{rotate: 90deg;}
+    
 
 }
 @media screen and (max-width: 1000.98px) {
