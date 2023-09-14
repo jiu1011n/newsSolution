@@ -1,33 +1,32 @@
 @charset "utf-8";
 @import url(fonts.css);
-
 /* Login start */
-    .login {margin-top: 48px; height: 766px;}
+    .login {margin-top: 48px; height: 766px; font-family: "Noto Sans CJ Kkr";}
     .login .inn {max-width: 900px; margin: auto; display: flex; flex-direction: column;}
     .login_header {margin-top: 59px; margin-bottom: 51px;}
-    .login_ttl_text {font-size: 38px; letter-spacing: -1px; line-height: 19px; color: #000000; font-weight: bold; font-family: "Noto Sans CJ Kkr"; text-align: center;}
+    .login_ttl_text {font-size: 38px; letter-spacing: -1px; line-height: 19px; color: #000000; font-weight: bold; ; text-align: center;}
     .red {color: #e12626;}
-    .login_desc_text {font-size: 22px; letter-spacing: -1px; line-height: 34px; color: #000000; font-family: "Noto Sans CJ Kkr"; text-align: center; padding-top: 26px;}
+    .login_desc_text {font-size: 22px; letter-spacing: -0.6px; line-height: 34px; color: #000000; ; text-align: center; padding-top: 26px;}
     .loginFrom_social {border-top:1px solid #000000; border-bottom: 1px solid #dbdbdb; height: 367px; display: flex; width: 100%;}
     .loginForm {width: 50%; border-right: 1px solid #dbdbdb; padding: 60px; flex-shrink: 0;}
-    .form_ttl {font-size: 22px; letter-spacing: -2px; line-height: 17px; color: #010101; font-weight: 500; font-family: "Noto Sans CJ Kkr"; text-align: center; padding-bottom: 29px;}
+    .form_ttl {font-size: 22px; letter-spacing: -2px; line-height: 17px; color: #010101; font-weight: 500; ; text-align: center; padding-bottom: 29px;}
     .input_wrap {height: 57px;}
-    .input_wrap input{outline: none; border: 1px solid #dbdbdb; background-color: #f7f7f7; height: 47px;}
+    .input_wrap input{outline: none; border: 1px solid #dbdbdb; background-color: #f7f7f7; height: 47px; padding: 10px 20px;}
     .forget_saveId {margin-top: 5px; display: flex; justify-content: space-between; margin-bottom: 13px; align-items: center;}
     input[type='checkbox'] {width: 18px; height: 18px; padding: 0; border: none;}
-    .save {font-size: 13px; letter-spacing: -1px; line-height: normal; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+    .save {font-size: 13px; letter-spacing: -1px; line-height: normal; color: #000000; font-weight: 300; ;}
     input[type='checkbox']:first-child {background-color: #e12626;}
     input[type='checkbox']:nth-child(2) {background-color: #d1d1d1;}
-    .forget {font-size: 13px; letter-spacing: -1px; color: #246bcc; font-weight: 300; font-family: "Noto Sans CJ Kkr"; text-align: right;}
+    .forget {font-size: 13px; letter-spacing: -1px; color: #246bcc; font-weight: 300; ; text-align: right;}
     .login_btn {height: 47px; background-color: #de4949; color: #ffffff; width: 100%; border: none;}
     .social {display: flex; flex-direction: column; padding: 60px 0; margin: 0 auto;}
-    .social h3 {font-size: 22px; letter-spacing: -2px; line-height: 17px; color: #010101; font-weight: 500; font-family: "Noto Sans CJ Kkr"; text-align: center;}
-    .desc {font-size: 16px; letter-spacing: -1px; line-height: 17px; color: #666666; font-weight: 300; font-family: "Noto Sans CJ Kkr"; text-align: center; padding-top: 31px; padding-bottom: 44px;}
+    .social h3 {font-size: 22px; letter-spacing: -2px; line-height: 17px; color: #010101; font-weight: 500; ; text-align: center;}
+    .desc {font-size: 16px; letter-spacing: -1.2px; line-height: 17px; color: #666666; font-weight: 300; ; text-align: center; padding-top: 31px; padding-bottom: 44px;}
     .social_icons {display: flex; justify-content: space-between; gap: 11px;}
     .social_icons a img {width: 67px; height: 69px;}
     .member {text-align: center; display: flex; justify-content: center; gap: 36px; margin-top: 47px;}
-    .isMember {font-size: 14px; letter-spacing: -1px; line-height: 16px; color: #000000; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
-    .register {font-size: 16px; letter-spacing: -1px; line-height: 16px; color: #000000; font-weight: 500; text-decoration: underline; font-family: "Noto Sans CJ Kkr"; text-underline-offset: 5px}
+    .isMember {font-size: 14px; letter-spacing: -1px; line-height: 16px; color: #000000; font-weight: 300; ;}
+    .register {font-size: 16px; letter-spacing: -1px; line-height: 16px; color: #000000; font-weight: 500; text-decoration: underline; ; text-underline-offset: 5px}
 /* Login end */
 
 @media screen and (max-width: 1000.98px) {
