@@ -97,7 +97,7 @@
     .mob_news_p{display: flex !important; width: 100% !important;font-size: 14px;letter-spacing: -1px;line-height: 23px;color: #777777;font-weight: 300;font-family: "Noto Sans CJ Kkr"; margin-top: 5px;}
     .desc_news_p{display: none;}
     /* main news */
-    .news_check_wrap{height: 1600px !important; width: 100% !important;}
+    .news_check_wrap{height: 1600px !important; width: 100% !important; margin: 0;}
     /* issue check */
     .issue_check{ width:90% !important; height: 800px; display: flex; flex-direction: column; justify-content: space-between; }
     .issue_check_button{height: 28px; width: 94px; display: flex;}

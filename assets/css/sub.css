@@ -16,7 +16,7 @@
 
 
 
-.breaking_news{margin-top: 49px; display: flex;  justify-content: space-between;}
+.breaking_news{margin-top: 48px; display: flex;  justify-content: space-between; }
 .breaking_news_content{ width:270px;}
 .break_news_text{width: 245px;}
 .break_news_text h2{margin-top: 18px; font-size: 16px; letter-spacing: -1px; line-height: 22px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
@@ -24,60 +24,65 @@
 .break_img{width: 270px; height: 184px; object-fit: cover;}
 
 /* ------------------------seaction 2 new-news and issue check------------------------ */
-.big_wrap{margin-top: 40px; display: flex; justify-content: space-between; width: 100%;}
+.big_wrap{margin-top: 40px; display: flex; justify-content: space-between; width: 100%; border-top: 1px solid #000000; padding-top: 35px;}
 .news_check_wrap{width: 801px; justify-content: space-between;}
-.issue_check{width:300px; height: 800px; display: flex; flex-direction: column; justify-content: space-between;}
+.issue_check{width:300px; height: 797px; display: flex; flex-direction: column; justify-content: space-between;}
 .main_news{width: 100%; height: 800px; display: flex; justify-content: space-between;}
-.new_news{width: 473px; height: 800px; display: flex; flex-direction: column; justify-content: space-between;}
-.new_news_content_wrap{display: flex; flex-direction: column; justify-content: space-between; height: 164px;}
+.new_news{width: 473px; height: 792px; display: flex; flex-direction: column; justify-content: space-between;margin-top: 5px; background-color: tomato;}
+.new_news_content_wrap{display: flex; flex-direction: column; justify-content: space-between; height: 166px; background-color: yellowgreen;}
 .new_news_content_wrap h2{font-size: 20px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .new_news_content{display: flex; justify-content: space-between; align-items: center; gap:17px}
 .new_news_content p{font-size: 14px;letter-spacing: -1px;line-height: 23px;color: #777777;font-weight: 300;font-family: "Noto Sans CJ Kkr";}
 .issue_check_button{height: 28px; width: 94px; display: flex;}
+.issue_check_content{height: 235px; display: flex ; flex-direction: column; justify-content: space-between;}
 .issue_check_content h2{font-size: 18px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .color_button{background-color: rgb(255, 85, 0);width: 84px; font-size: 16px; letter-spacing: -1px; line-height: 21px; color: #ffffff; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .mob_news_p{display: none;}
 /* ------------------------seaction-3 old news------------------------ */
-.old_news_content_container{width:100%;  margin-top: 40px;}
+.old_news_content_container{width:100%;  margin-top: 38px;}
 .old_news_wrap{margin-top: 40px; width: 100%; height: 711px; display: flex; flex-direction: column; justify-content: space-between;}
 .old_news_content{display: flex; align-items: center; gap:17px;}
 .slider_advertising{width: 100%;}
-.old_news_content h2{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-.old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
+.old_news_content h2{font-size: 18px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr"; padding: 5px;}
+.old_news_content p{font-size: 14px; letter-spacing: -1px; line-height: 21px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr"; padding: 5px;}
 .old_news_img{width:160px;height:  109px; object-fit: cover; min-width: 160px;}
 .mob_old_p{display: none;}
 
 /* ------------------------seaction 4 side bar------------------------ */
-.side_bar_container{width: 301px; background-color:rgb(226, 224, 224); display: flex; justify-content: center;}
+.side_bar_container{width: 301px; background-color:rgb(237, 235, 235); display: flex; justify-content: center; margin-top: 5px;}
 .side_bar_wrapper{width: 271px;}
 /* most news */
-.most_news_header{width: 100%; display: flex;justify-content: space-between; align-items: center;  margin-top: 25px;}
+/* .most_news{height: 455px;} */
+.most_news_header{width: 100%; display: flex;justify-content: space-between; align-items: center;  }
 .most_news_header_title{display: flex;}
 .most_news_header_title h2{font-size: 18px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 700; font-family: "Noto Sans KR";}
-.list_content{display: flex; height: 43px; align-items: center; gap: 25px; border-bottom: 1px solid #777777;}
+.list_content{display: flex; height: 42.3px; align-items: center; gap: 25px; border-bottom: 1px solid #dcdcdc;}
 .list_number{font-size: 18px; letter-spacing: -1px; line-height: 43px; color: #777777; font-weight: 700; font-family: "Noto Sans KR"; text-align: center;}
 .list_text{font-size: 14px; letter-spacing: 0px; line-height: 43px; flex-wrap: nowrap; color: #777777; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .top_list_number{font-size: 18px; letter-spacing: -1px; line-height: 43px; color: #000000; font-weight: 700; font-family: "Noto Sans KR"; text-align: center;}
 .top_list_text{font-size: 14px; letter-spacing: 0px; line-height: 43px; flex-wrap: nowrap; color: #060606; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .most_news_slider{margin-top: 15px;}
 /* hot issue */
-.hot_issue_container{margin-top: 20px; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.hot_issue{margin-top:40px ;}
+.hot_issue_container{ width: 100%; display: flex; flex-direction: column; align-items: center; gap: 10px; height: 269px; margin-top: 11px;}
 .hot_issue_content{display: flex; align-items: center;}
 .hot_issue_text h2{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #060606; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .hot_issue_text p{font-size: 14px; letter-spacing: -1px; line-height: 19px; color: #777777; font-weight: 300; font-family: "Noto Sans CJ Kkr";}
 /* news room */
+.news_room{margin-top: 36px;}
 .news_room_content{display: flex; align-items: center;  gap:15px}
 .news_room_text h2{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #060606; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
 .news_room_text p{ font-size: 14px; letter-spacing: -1px;line-height: 19px;color: #777777;font-weight: 300; font-family: "Noto Sans CJ Kkr";}
-.news_room_container{display: flex; flex-direction: column; gap:10px; margin-top: 20px;}
+.news_room_container{display: flex; flex-direction: column; gap:10px; margin-top: 15px;}
 .news_room_header_title {display: flex; gap: 5px;}
 .news_room_header_title h2{font-size: 18px; letter-spacing: -1px; line-height: 25px; color: #000000; font-weight: 700; font-family: "Noto Sans KR";}
 
 /* real time news */
+.real_time_news{margin-top: 35px; padding-bottom: 10px;}
 .real_time_news_content{width: 130px;}
 .real_time_news_content p{margin-top: 15px; font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; font-weight: 500; font-family: "Noto Sans CJ Kkr";}
-.real_time_news_container_first{margin-top: 20px; display: flex; justify-content: space-between;}
-.real_time_news_container_end{margin-top: 20px; display: flex; justify-content: space-between;}
+.real_time_news_container_first{margin-top: 18px; display: flex; justify-content: space-between;}
+.real_time_news_container_end{margin-top: 14px; display: flex; justify-content: space-between;}
 .real_time_img{object-fit: cover;width: 130px; height: 89px; max-width: 100%;}
 .news_room_img{object-fit: cover ; height: 75px; width: 110px;min-width: 110px;}
 
