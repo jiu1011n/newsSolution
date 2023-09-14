@@ -1,0 +1,94 @@
+@media screen and (max-width: 1000.98px) {
+    table {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    .table8 .address-cont2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab-cont input {
+        width: 100%
+    }
+
+    .tab-cont th {
+        width: 25%;
+    }
+
+    .table8 .address-cont1 input{
+        width: 80%;
+    }
+    .table8 .address-cont1 button{
+        width: 20%;
+    }
+
+
+    input[type="checkbox"] {
+        width: 19px;
+    }
+
+    .address-input {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .tab-title{
+        font-size: 30px;
+        padding: 10px 0 35px;
+    }
+    .btn-cont{
+        margin: 45px 0;
+    }
+    .btn-cont button{
+        padding: 13px 20px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .tab-title{
+        font-size: 25px;
+        padding: 10px 0 30px;
+    }
+    .tab-cont th, .tab-cont td{
+        width: 100%;
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .table8 .address-cont1{
+        display: block;
+    }
+
+    .table8 .address-cont1 input, .table8 .address-cont1 button{
+        width: 100%;
+    }
+
+    .table8 .address-cont1 button{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .btn-cont{
+        margin: 30px 0;
+    }
+
+    .tab-cont th{
+        font-size: 13px;
+    }
+
+    .tab-cont td {
+        font-size: 12px;
+    }
+
+    .btn-cont button{
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+}
+

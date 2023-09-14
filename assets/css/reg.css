@@ -43,7 +43,7 @@
 }
 
 .tab-cont td {
-  padding: 10px 0 10px 25px;
+  padding: 10px 25px;
   font-size: 14px;
   line-height: 18px;
   color: #000000;
@@ -88,30 +88,6 @@ input[type="checkbox"]:checked {
   padding: 3px;
 } */
 
-.address-cont1 {
-  display: flex;
-  margin-bottom: 5px;
-}
-
-.address-cont1 input {
-  width: 134px;
-}
-
-.address-cont1 button {
-  background-color: #666666;
-  color: #ffffff;
-  padding: 4px 17px 6px 17px;
-  letter-spacing: -1px;
-  font-weight: 300;
-  border-radius: 2px;
-  margin-left: 4px;
-  font-size: 14px;
-}
-
-.address-cont2 input:first-child {
-  margin-right: 4px;
-}
-
 .table5 p {
   margin-top: -3px;
 }
@@ -124,6 +100,30 @@ input[type="checkbox"]:checked {
 .table7 p {
   padding-top: 3px;
   padding-bottom: 5px;
+}
+
+.table8 .address-cont1 {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.table8 .address-cont1 input {
+  width: 134px;
+}
+
+.table8 .address-cont1 button {
+  background-color: #666666;
+  color: #ffffff;
+  padding: 4px 17px 6px 17px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  border-radius: 2px;
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+.table8 .address-cont2 input:first-child {
+  margin-right: 4px;
 }
 
 .table9 input,
@@ -151,11 +151,16 @@ input[type="checkbox"]:checked {
   margin: 23px 0;
 }
 
+.btn-cont{
+  margin: 45px 0 110px;
+  display: flex;
+  justify-content: center
+}
+
 .btn-cont button {
   background-color: #2056df;
   color: #ffffff;
   padding: 17px 22px 18px;
-  margin: 45px auto 110px;
   font-size: 15px;
   letter-spacing: -1px;
   line-height: 18px;
@@ -163,3 +168,4 @@ input[type="checkbox"]:checked {
   font-weight: 400;
   border-radius: 5px;
 }
+
