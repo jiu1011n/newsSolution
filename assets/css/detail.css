@@ -126,6 +126,8 @@
     .detail_content_wrap .floating .hot_issue {margin-top: 21px;}
     .detail_content_wrap .floating .hot_issue .aside_ttl {margin: 0px;}
     .detail_content_wrap .card_inner {width: 100%;}
+    .detail_content_wrap .img_ttl_card {width: 130px;}
+    .detail_content_wrap .img_ttl_card img {height: 90px;}
     /* Detail aside end */
 
     
@@ -135,6 +137,7 @@
     .detail_header {height: auto;}
     .news_img {width: 100%; height: auto;}
     .comment_text>div {gap: 5px;}
+    .detail_content_wrap .img_ttl_card {width: 46%;}
     }
     @media screen and (max-width: 1000.98px) {
     .detail1 {font-size: 1.6vw; line-height: 1.8; }    
@@ -145,10 +148,15 @@
     .score_btn {margin: 30px 0;}
     #reply_comment {font-size: 1.4vw; height: 35px;}
     .input_btn {height: 35px;}
-    .score_btn button {height: 50px;}
+    .score_btn button {height: auto; width: auto; padding: 10px 20px;}
     .textarea_wrap {padding: 0 10px;}
     .comment {width: 100%;}
     .comment_text {flex-direction: column; align-items: flex-start; row-gap: 10px;}
+    .detail_content_wrap .img_ttl_card {width: 100%;}
+    .detail_content_wrap .img_ttl_card img {height: auto;}
+    .detail_conts {margin: 0;}
+    .utils {width: auto; height: auto;}
+    .utils_icon {width: 4vw; height: auto; aspect-ratio: 1/1; background-size: 50% 50%;}
     }
     @media screen and (max-width: 767.98px) {
     .detail_content_wrap {flex-direction: column;}
@@ -160,12 +168,16 @@
     .caption2 {line-height: normal; letter-spacing: 0;}
     .detail_header {margin: 20px 0 0 0;}
     .detail_ttl {text-align: center;}
+    .reporter_wrap {margin: 0;}
     .news_img, .news_text, .hashtag, .score_btn, .relate, .comment_wrap, .tab_wrap {margin-top: 20px;}
     .relate {margin-bottom: 0px;}
     .relative_news {padding-bottom: 20px;}
     .sort_comment {width: auto;}
     .sort_btn {padding: 0 10px;}
     .paging_wrap {margin: 20px 0 0 0;}
+    .detail_content_wrap .img_ttl_card {width: 48%;}
+    .relative_news ul li {height: 18px;}
+    .detail_content_wrap .floating .most_viewed {width: 100%;}
     }
     @media screen and (max-width: 575.98px) {
 

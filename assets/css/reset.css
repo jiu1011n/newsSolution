@@ -87,7 +87,6 @@ h5,
 h6 {
   box-sizing: border-box;
   font-weight: normal;
-  font-size: inherit;
 }
 em {
   font-style: normal;
