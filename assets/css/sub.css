@@ -111,7 +111,7 @@
 .information_table{  width: 1140px}
 .impormation_title{margin-top: 25px; font-size: 22px; letter-spacing: -1px; line-height: 34px; color: #000000; font-weight: 500; font-family: "Noto Sans KR";}
 .information_table_body{border: 1px solid #777777; border-top-color: #000000; margin-top: 15px; width: 100%;}
-.information_table_body th{width: 221px; background-color: #f4f4f4; border-bottom:1px solid #777777 ; border-right: 1px solid #777777;}
+.information_table_body th{width: 221px; background-color: #f4f4f4; border-bottom:1px solid #777777 ; border-right: 1px solid #777777; text-align: left; padding-left: 27px;}
 .information_table_body td{width: 918px; background-color: rgb(255, 255, 255);  border-bottom:1px solid #777777 ;}
 .select_category{padding: 10px 24px; display: flex; flex-direction: column; gap: 5px;}
 .information_option_button{width:140px; height: 36px; border: 1px solid #777777; display: flex; align-items: center;justify-content: space-between; padding: 0 10px ;}
@@ -153,7 +153,7 @@
 .all_news_list li{font-size: 14px; letter-spacing: 0px; line-height: 30px; color: #555555; font-weight: 300; font-family: "Noto Sans KR";}
 .all_news_list li:hover{ background-color: #d7d7d7;}
 .scroll_news{padding: 14px;}
-.instructions{margin-top: 15px;}
+.instructions{margin-top: 15px; width: 100%;}
 .instructions li{font-size: 13px; letter-spacing: 0px; line-height: 22px; color: #246bcc; font-weight: 300; font-family: "Noto Sans KR";}
 /*  Basics start */
 .modifier{padding: 14px 24px; } 

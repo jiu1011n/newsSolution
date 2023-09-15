@@ -105,6 +105,7 @@ h5{font-size: 15px; letter-spacing: -1px; line-height: 21px; color: #000000; fon
      .footer{width: 100% !important;}
      .footer-text{display: flex; flex-direction: column !important; width: 90%;}
      .footer_text_row{ flex-direction: column; gap: 10px;}
+     .footer{margin-top: 0px !important;}
      .footer_menu_list li a{font-size: 14px;font-weight: 200;}
 }
 @media screen and (max-width: 483px) {
